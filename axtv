@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="http://lichphatsong.xyz/schedule/epg.xml,https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml,http://content.stream-link.org/epg/guide.xml,http://epg.51zmt.top:8000/e.xml,https://iptvx.one/EPG.gz,http://epg.it999.ru/epg.xml.gz,https://akkradet.github.io/IPTV-THAI/guide.xml,https://epg.pw/xmltv/epg_ID.xml"
-#EXTM3U Luôn cập nhật kênh ổn định - https://tinyurl.com/VietXoTV - https://hqth.me/vietstvKIPTV
+#EXTM3U Luôn cập nhật kênh ổn định - https://hqth.me/axtv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
 https://vtc301220.cdn.vnns.io/VTV1HD.stream/chunks.m3u8
