@@ -33,5 +33,4 @@ https://e2.endpoint.cdn.sctvonline.vn/hls/vtv7/index.m3u8?
 https://e3.endpoint.cdn.sctvonline.vn/hls/vtv8/index.m3u8?
 #EXTINF:0 tvg-id="vtv9hd" group-title="🇻🇳| VTV" tvg-logo="https://i.imgur.com/Ex1VkGQ.png",VTV9
 #EXTVLCOPT:http-user-agent=ReactNativeVideo/3.4.4 (Linux;Android 9) ExoPlayerLib/2.13.3
-#EXTVLCOPT:http-referrer=http://sctvonline.vn
-https://e2.endpoint.cdn.sctvonline.vn/hls/vtv9/index.m3u8?
+#EXTVLCOPT:http-referrer=extension://eakdijdofmnclopcffkkgmndadhbjgka/player.html#https://live27021102.nsoking.xyz/livetv/kplus_sport1_master/tracks-v1a1/mono.m3u8?filter.tracks=v1a1a2a1&token=87c63fd2bde794f0147f766bc2b9be70809a143d-35fd2bd34002db126715d0b921cce825-1713931849-1713921049
