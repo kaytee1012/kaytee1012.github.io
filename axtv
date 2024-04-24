@@ -2,7 +2,7 @@
 #EXTM3U Luôn cập nhật kênh ổn định - https://hqth.me/axtv
 
 #EXTINF:0 tvg-id="vtv1hd" group-title="🇻🇳| VTV" group-logo="https://phuhdtv.github.io/thumbs/Groups/VTV.png" tvg-logo="https://i.imgur.com/nfkmvAY.png",VTV1
-https://vtc301220.cdn.vnns.io/VTV1HD.stream/chunks.m3u8
+https://live27021102.nsoking.xyz/livetv/kplus_sport1_master/tracks-v1a1/mono.m3u8?filter.tracks=v1a1a2a1&token=87c63fd2bde794f0147f766bc2b9be70809a143d-35fd2bd34002db126715d0b921cce825-1713931849-1713921049
 #EXTINF:0 tvg-id="vtv2hd" group-title="🇻🇳| VTV" tvg-logo="https://i.imgur.com/BVwi3K3.png",VTV2
 http://118.107.85.4:1935/live/smil:VTV2.smil/chunks.m3u8
 #EXTINF:0 tvg-id="vtv3hd" group-title="🇻🇳| VTV" tvg-logo="https://i.imgur.com/7rLCvgS.png",VTV3
