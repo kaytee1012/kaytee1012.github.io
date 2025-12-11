@@ -1,96 +1,151 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <title>Kho chả có cái db gì</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kho VIP Pro</title>
   <style>
+    :root{
+      --bg1:#0e0e0e; --bg2:#1e1e1e; --accent:#ffbb00; --muted:rgba(255,255,255,0.08);
+    }
+    *{box-sizing:border-box}
     body {
       margin: 0;
-      font-family: "Segoe UI", sans-serif;
-      background: linear-gradient(135deg, #0e0e0e, #1e1e1e);
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      background: linear-gradient(135deg, var(--bg1), var(--bg2));
       color: #f2f2f2;
+      min-height:100vh;
+      display:flex;
+      flex-direction:column;
+      align-items:stretch;
     }
 
     header {
       text-align: center;
-      padding: 30px 10px;
+      padding: 36px 16px 12px;
     }
 
     h1 {
-      font-weight: 700;
-      font-size: 32px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      background: linear-gradient(90deg, #ffdd55, #ffbb00);
+      margin:0;
+      font-weight:700;
+      font-size:28px;
+      letter-spacing:1px;
+      text-transform:uppercase;
+      background: linear-gradient(90deg,#ffd966,var(--accent));
       -webkit-background-clip: text;
       color: transparent;
     }
 
     .container {
-      width: 90%;
-      max-width: 600px;
-      margin: auto;
-      margin-top: 20px;
+      width:90%;
+      max-width:680px;
+      margin: 18px auto 40px;
     }
 
+    /* biến thẻ a thành ô bấm toàn phần */
     .item {
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.15);
+      display:block;
+      text-decoration:none;
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border: 1px solid rgba(255,255,255,0.08);
       padding: 16px 20px;
       border-radius: 12px;
       margin-bottom: 14px;
-      transition: 0.25s;
-      backdrop-filter: blur(6px);
+      transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+      color: #ffdd88;
+      font-weight:600;
+      align-items:center;
+      gap:12px;
+      display:flex; /* để icon + text nằm cùng dòng */
+    }
+
+    .item .icon {
+      width:28px;
+      height:28px;
+      flex:0 0 28px;
+      display:inline-grid;
+      place-items:center;
+      font-size:18px;
+      margin-right:8px;
     }
 
     .item:hover {
       transform: translateY(-4px);
-      border-color: #ffbb00;
-      box-shadow: 0 6px 18px rgba(255, 200, 0, 0.2);
+      border-color: var(--accent);
+      box-shadow: 0 10px 30px rgba(255,187,0,0.12);
     }
 
-    a {
-      text-decoration: none;
-      color: #ffdd55;
-      font-size: 18px;
-      font-weight: 600;
+    /* keyboard focus rõ ràng */
+    .item:focus {
+      outline: 3px solid rgba(255,187,0,0.18);
+      outline-offset: 4px;
+    }
+
+    /* phần mô tả / text */
+    .item .label {
+      color: #ffd770;
+      font-size:17px;
+    }
+    .item .sub {
+      color: #d6caa0;
+      font-size:13px;
+      margin-left:auto;
+      opacity:0.9;
     }
 
     footer {
-      text-align: center;
-      margin: 35px 0;
-      font-size: 14px;
-      opacity: 0.6;
+      text-align:center;
+      color: #bfbfbf;
+      opacity:0.65;
+      padding: 18px 8px 30px;
+      margin-top:auto;
+      font-size:14px;
+    }
+
+    /* responsive nhỏ */
+    @media (max-width:420px){
+      .item{padding:12px;}
+      h1{font-size:20px}
     }
   </style>
 </head>
-
 <body>
   <header>
-    <h1>KHO VIP PRO (NHƯNG LƯỜI NÊN CHƯA UP)</h1>
+    <h1>Kho VIP Pro — nhìn nghèo nhưng chất</h1>
   </header>
 
-  <div class="container">
-    <div class="item">
-      <a href="itms-services://?action=download-manifest&url=https%3A%2F%2Fi.codevn.net%2Fplist.php%3Fid%3Dzm677tue">📱 Rổ Phim (iOS)</a>
-    </div>
+  <main class="container">
+    <!-- mỗi item là 1 thẻ <a> block - toàn bộ ô click được -->
+    <a class="item" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fi.codevn.net%2Fplist.php%3Fid%3Dzm677tue" title="Rổ Phim (iOS)">
+      <span class="icon">📱</span>
+      <span class="label">Rổ Phim (iOS)</span>
+      <span class="sub">iOS manifest</span>
+    </a>
 
-    <div class="item">
-      <a href="Button+Mapper_v3.09(309).apk">🔘 Button Mapper</a>
-    </div>
+    <a class="item" href="Button+Mapper_v3.09(309).apk" title="Button Mapper APK">
+      <span class="icon">🔘</span>
+      <span class="label">Button Mapper</span>
+      <span class="sub">APK</span>
+    </a>
 
-    <div class="item">
-      <a href="Openbullet 1.4.4 Anomaly Modded Version.rar">🎯 OpenBullet 1.4.4</a>
-    </div>
+    <a class="item" href="Openbullet 1.4.4 Anomaly Modded Version.rar" title="OpenBullet">
+      <span class="icon">🎯</span>
+      <span class="label">OpenBullet 1.4.4</span>
+      <span class="sub">RAR</span>
+    </a>
 
-    <div class="item">
-      <a href="password-list-generator_softradar-com.rar">🔑 Password List Generator</a>
-    </div>
+    <a class="item" href="password-list-generator_softradar-com.rar" title="Password List Generator">
+      <span class="icon">🔑</span>
+      <span class="label">Password List Generator</span>
+      <span class="sub">RAR</span>
+    </a>
 
-    <div class="item">
-      <a href="https://www.mediafire.com/file/vs9tevmu9h230gq/SilverBulllet1.1.2.rar/file">💥 SilverBullet 1.1.2</a>
-    </div>
-  </div>
+    <a class="item" href="https://www.mediafire.com/file/vs9tevmu9h230gq/SilverBulllet1.1.2.rar/file" target="_blank" rel="noopener" title="SilverBullet">
+      <span class="icon">💥</span>
+      <span class="label">SilverBullet 1.1.2</span>
+      <span class="sub">MediaFire</span>
+    </a>
+  </main>
 
   <footer>© Kho VIP Pro • Không giàu nhưng đẹp 😎</footer>
 </body>
