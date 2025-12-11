@@ -11,7 +11,7 @@
 									<key>kind</key>
 									<string>software-package</string>
 									<key>url</key>
-									<string>https://dl.dropboxusercontent.com/scl/fi/do8trxu9yiol87t6winob/Quantumult-X-1.4.2.ipa?rlkey=x17wkz83qp6jrht3goxx7ic2o&amp;dl=1</string>
+									<string>https://dl.dropboxusercontent.com/scl/fi/giwwpedr4zx9iq6bfvt9q/co.roteam.roteamios-1.0.5-6752686628-878879819.ipa?rlkey=vns7w2m8osxe6ao061zxxhcxq&st=bzsdd7dd&dl=1</string>
 								</dict>
 								<dict>
 									<key>kind</key>
@@ -19,7 +19,7 @@
 									<key>needs-shine</key>
 									<true/>
 									<key>url</key>
-									<string>https://apps.anhxoai4g.xyz/logoanhxoai.jpg</string>
+									<string>dq.jpg</string>
 								</dict>
 								<dict>
 									<key>kind</key>
@@ -27,19 +27,19 @@
 									<key>needs-shine</key>
 									<true/>
 									<key>url</key>
-									<string>https://apps.anhxoai4g.xyz/logoanhxoai.jpg</string>
+									<string>dq.jpg</string>
 								</dict>
 							</array>
 							<key>metadata</key>
 							<dict>
 								<key>bundle-identifier</key>
-								<string>com.crossutility.quantumult-x</string>
+								<string>co.roteam.roteamios</string>
 								<key>bundle-version</key>
-								<string>142</string>
+								<string>1.0.5</string>
 								<key>kind</key>
 								<string>software</string>
 								<key>title</key>
-								<string>Quantumult X</string>
+								<string>Rổ Team</string>
 							</dict>
 						</dict>
 					</array>
