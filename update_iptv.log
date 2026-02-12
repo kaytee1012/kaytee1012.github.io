@@ -30,3 +30,10 @@ Found match pages: 10
 [10/10] https://quechoa5.live/truc-tiep/guaguas-vs-br-volleys-hhs-12-02-2026 | m3u8=22 | added=NO
 DONE -> D:\kaytee1012.github.io\quechoa.txt | channels: 9
 warning: in the working copy of 'quechoa.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'quechoa.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'update_iptv.log', LF will be replaced by CRLF the next time Git touches it
+[main 57a7090] Auto update IPTV 12/02/2026 19:20:12,56
+ 4 files changed, 319 insertions(+), 5 deletions(-)
+ create mode 100644 crawl_to_m3u.py
+ create mode 100644 update_iptv.bat
+ create mode 100644 update_iptv.log
