@@ -1,74 +1,51 @@
-<!doctype html>
-<html lang="vi">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Xem phim</title>
-  <style>
-    html, body { height: 100%; margin: 0; background:#000; color:#fff; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial; }
-    .wrap { height: 100%; display: flex; flex-direction: column; }
-    .bar { padding: 12px 14px; display:flex; gap:10px; align-items:center; border-bottom: 1px solid rgba(255,255,255,.12); }
-    .btn {
-      display:inline-block; padding:10px 14px; border:1px solid rgba(255,255,255,.5);
-      border-radius: 10px; color:#fff; text-decoration:none; font-weight:600;
-    }
-    .hint { opacity:.8; font-size: 13px; line-height: 1.35; }
-    iframe { flex:1; width:100%; border:0; }
-    .iosOnly { display:none; padding: 16px 14px; }
-    .nonIosOnly { display:none; height:100%; }
-  </style>
-</head>
-<body>
-  <div class="wrap">
-    <div class="bar">
-      <a class="btn" id="btnOpen" href="#" target="_blank" rel="noopener">Mở toàn màn hình (iPhone/iPad)</a>
-      <div class="hint" id="hint">
-        Nếu bạn dùng iPhone/iPad và Safari báo không hỗ trợ toàn màn hình, bấm nút bên trái.
-      </div>
-    </div>
-
-    <!-- iOS: hướng dẫn + link mở Drive -->
-    <div class="iosOnly" id="iosOnly">
-      <p style="margin:0 0 10px 0; font-weight:700;">iPhone/iPad (Safari)</p>
-      <p style="margin:0 0 12px 0; opacity:.85;">
-        Safari iOS không cho fullscreen video khi xem qua iframe Google Drive.
-        Bấm <b>Mở toàn màn hình</b> để mở trực tiếp trên Drive (sẽ fullscreen được).
-      </p>
-      <a class="btn" id="btnOpen2" href="#" target="_blank" rel="noopener">▶ Mở video trên Google Drive</a>
-    </div>
-
-    <!-- Non-iOS: xem ngay trong trang -->
-    <div class="nonIosOnly" id="nonIosOnly">
-      <iframe id="player" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-    </div>
-  </div>
-
-  <script>
-    // ====== CHỈ CẦN THAY FILE_ID Ở ĐÂY ======
-    const FILE_ID = "1Uqhu88h9CqNoRYniYOlisByt5eXMcC6G";
-    // =======================================
-
-    const previewUrl = `https://drive.google.com/file/d/${FILE_ID}/preview`;
-    const viewUrl    = `https://drive.google.com/file/d/${FILE_ID}/view`;
-
-    // iOS detection (iPhone/iPad/iPod) + iPadOS (MacIntel + touch)
-    const isIOS =
-      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
-      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1);
-
-    document.getElementById("btnOpen").href = viewUrl;
-    document.getElementById("btnOpen2").href = viewUrl;
-
-    if (isIOS) {
-      document.getElementById("iosOnly").style.display = "block";
-      document.getElementById("nonIosOnly").style.display = "none";
-      document.getElementById("hint").textContent =
-        "Bạn đang dùng iPhone/iPad: bấm 'Mở toàn màn hình' để mở trực tiếp trên Drive.";
-    } else {
-      document.getElementById("iosOnly").style.display = "none";
-      document.getElementById("nonIosOnly").style.display = "block";
-      document.getElementById("player").src = previewUrl;
-    }
-  </script>
-</body>
-</html>
+#EXTM3U
+#EXTINF:-1,Stream 1
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv5_full-hd.m3u8
+#EXTINF:-1,Stream 2
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv5_hd.m3u8
+#EXTINF:-1,Stream 3
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv5_sd.m3u8
+#EXTINF:-1,Stream 4
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_1.m3u8
+#EXTINF:-1,Stream 5
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_1_hd.m3u8
+#EXTINF:-1,Stream 6
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_1_sd.m3u8
+#EXTINF:-1,Stream 7
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_2.m3u8
+#EXTINF:-1,Stream 8
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_2_hd.m3u8
+#EXTINF:-1,Stream 9
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_2_sd.m3u8
+#EXTINF:-1,Stream 10
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_banhda_full-hd.m3u8
+#EXTINF:-1,Stream 11
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_banhda_hd.m3u8
+#EXTINF:-1,Stream 12
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_banhda_sd.m3u8
+#EXTINF:-1,Stream 13
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_banhmuot_full-hd.m3u8
+#EXTINF:-1,Stream 14
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_banhmuot_hd.m3u8
+#EXTINF:-1,Stream 15
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_banhmuot_sd.m3u8
+#EXTINF:-1,Stream 16
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_lachanh_full-hd.m3u8
+#EXTINF:-1,Stream 17
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_supluon_full-hd.m3u8
+#EXTINF:-1,Stream 18
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_supluon_hd.m3u8
+#EXTINF:-1,Stream 19
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_supluon_sd.m3u8
+#EXTINF:-1,Stream 20
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/nhadai1_full-hd.m3u8
+#EXTINF:-1,Stream 21
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/nhadai1_hd.m3u8
+#EXTINF:-1,Stream 22
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/nhadai1_sd.m3u8
+#EXTINF:-1,Stream 23
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/nhadai3_full-hd.m3u8
+#EXTINF:-1,Stream 24
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/nhadai3_hd.m3u8
+#EXTINF:-1,Stream 25
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/nhadai3_sd.m3u8
