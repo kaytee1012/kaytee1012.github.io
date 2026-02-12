@@ -1,7 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="LCP",Live [13:00 12.02] GAM Esports vs Fukuoka SoftBank Hawks (CƯỢC UY TÍN)
-https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_supluon_full-hd.m3u8
 #EXTINF:-1 group-title="LCK",Live [15:00 12.02] Fear X vs DN SOOPers (CƯỢC UY TÍN)
-https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_supluon_hd.m3u8
-#EXTINF:-1 group-title="VS",Live [17:00 12.02] Pohang Steelers vs Gamba Osaka (CƯỢC UY TÍN)
-https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_supluon_sd.m3u8
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv5_full-hd.m3u8
+#EXTINF:-1 group-title="FHD",Live [16:00 12.02] Jakarta Elektrik vs Medan Falcons (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv5_hd.m3u8
+#EXTINF:-1 group-title="FHD",Live [17:00 12.02] Pohang Steelers vs Gamba Osaka (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_1.m3u8
+#EXTINF:-1 group-title="FHD",Live [19:15 12.02] Bangkok United vs Macarthur (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_2.m3u8
+#EXTINF:-1 group-title="VS",Live [22:45 12.02] Damac vs Al Taawon (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_1_hd.m3u8
+#EXTINF:-1 group-title="VS",Live [23:00 12.02] Lokomotiv Plovdiv vs Botev Plovdiv (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_1_sd.m3u8
+#EXTINF:-1 group-title="VS",Live [23:30 12.02] Halkbank vs Lublin (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv5_sd.m3u8
+#EXTINF:-1 group-title="VS",Live [00:00 12.02] VK Lvi Prague vs perugia (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_2_hd.m3u8
+#EXTINF:-1 group-title="VS",Live [02:00 12.02] ACH Ljubljana vs Trentino (CƯỢC UY TÍN)
+https://ahghndtkyqmm-pull.bpmedialive.com/quechoa/blv_2_sd.m3u8
