@@ -23,7 +23,3 @@ https://cdn-hls.taoxanh.biz/live/699c482626634_128756/index.m3u8?expire=17724545
 https://cdn-hls.taoxanh.biz/live/699c437626634_72787/index.m3u8?expire=1772453366&sign=d9cd982d5b1669981adc2ee55ad28e4c
 #EXTINF:-1 group-title="KayTee",[20:00] Link xem trực tiếp Pendikspor vs Keciorengucu lúc 20:00 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 3)
 https://live.alilicloud.com/live/4b2ec15ea1cacc134f5ed3f6b5889f95/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[19:30] Link xem trực tiếp Hougang United FC vs Tanjong Pagar Utd lúc 19:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://cdn-hls.taoxanh.biz/live/699c470e26634_44731/index.m3u8?expire=1772454286&sign=c1bfe8dff6ff513f8d3b58cef731954a
-#EXTINF:-1 group-title="KayTee",[19:30] Link xem trực tiếp Hougang United FC vs Tanjong Pagar Utd lúc 19:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 2)
-https://live.alilicloud.com/live/c9799daf61d2872d819a94cd2743c544/playlist.m3u8
