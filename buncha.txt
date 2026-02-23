@@ -17,15 +17,3 @@ https://cdn-hls.taoxanh.biz/live/699c55b126634_132584/index.m3u8?expire=17724580
 https://live.alilicloud.com/live/004fd5b3a2198a82b0b16c3ce35a2b40/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[21:00] Link xem trực tiếp Belarus U17 vs Russia U17 lúc 21:00 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/9a348000f0a5c820b9a6b2e257a96432/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[20:30] Link xem trực tiếp Persipal Palu vs Persiba Balikpapan lúc 20:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://cdn-hls.taoxanh.biz/live/699c478dfe270_85514/index.m3u8?expire=1772454413&sign=430fada830bb7ae17e4ec84777ab34f6
-#EXTINF:-1 group-title="KayTee",[20:30] Link xem trực tiếp Kudrivka vs Zorya lúc 20:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://cdn-hls.taoxanh.biz/live/699c566526634_18754/index.m3u8?expire=1772458213&sign=457c732c9a29b54a34046944f57f76c5
-#EXTINF:-1 group-title="KayTee",[20:30] Link xem trực tiếp Kudrivka vs Zorya lúc 20:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 2)
-https://cdn-hls.taoxanh.biz/live/699c4bcd26634_68958/index.m3u8?expire=1772455501&sign=c81608f78340e1ddd3b3384d5446d1f9
-#EXTINF:-1 group-title="KayTee",[20:30] Link xem trực tiếp Kudrivka vs Zorya lúc 20:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 3)
-https://live.alilicloud.com/live/a17c905915f6ecc5a54945e813778e4a/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[20:30] Link xem trực tiếp PSIM Yogyakarta vs Bali United lúc 20:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://cdn-hls.taoxanh.biz/live/699c4717fe270_88642/index.m3u8?expire=1772454295&sign=2f135c627dc42e0f7b53a3ca64a97463
-#EXTINF:-1 group-title="KayTee",[20:30] Link xem trực tiếp PSIM Yogyakarta vs Bali United lúc 20:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 2)
-https://live.alilicloud.com/live/99f3e27dea78d354738b026c0db5d121/playlist.m3u8
