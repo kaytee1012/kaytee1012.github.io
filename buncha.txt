@@ -41,8 +41,6 @@ https://cdn-hls.taoxanh.biz/live/699c7dc626634_79/index.m3u8?expire=1772468294&s
 https://live.alilicloud.com/live/3c0a47e3b4b1815891aa092d1d37467f/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:00] Link xem trực tiếp Amedspor vs Belediye Vanspor lúc 00:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/8ffb522271e7a5e6f1b6bffacb8cc793/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[00:00] Link xem trực tiếp Eintracht Frankfurt (w) vs SC Freiburg (w) lúc 00:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://live.alilicloud.com/live/edc2347bb60c7427a46de516a1e14ca9/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:00] Link xem trực tiếp British Virgin Islands U20 vs Dominica U20 lúc 00:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/b9a30347a88626150c6be6c2bfacd44e/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:30] Link xem trực tiếp Halys Q. vs Draper J. lúc 23:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
