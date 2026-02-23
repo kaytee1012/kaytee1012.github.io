@@ -3,7 +3,7 @@ name: Auto Crawl BunchaTV Link
 on:
   schedule:
     # Chạy 5 phút 1 lần
-    - cron: '*/5 * * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch: # Cái này cho phép mày bấm nút chạy bằng tay trên web GitHub lúc nào thích
 
 jobs:
