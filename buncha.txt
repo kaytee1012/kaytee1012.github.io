@@ -11,5 +11,3 @@ https://live.alilicloud.com/live/65de4994788e13bfff5a80d363a660a8/playlist.m3u8
 https://live.alilicloud.com/live/d1c355d39411788801bf2840c45ff781/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[05:00] Link xem trực tiếp Monsoon FC vs Avenida RS lúc 05:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/f3d28189805a4dad7f74840abf83d36a/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[04:30] Link xem trực tiếp Zamora Barinas vs Deportivo La Guaira lúc 04:30 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://live.alilicloud.com/live/7e26b6fdec9fb466d6808ec5b52fac54/playlist.m3u8
