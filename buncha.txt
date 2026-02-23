@@ -27,11 +27,7 @@ https://cdn-hls.taoxanh.biz/live/699cb19726634_88186/index.m3u8?expire=177248155
 https://cdn-hls.taoxanh.biz/live/699caa0226634_5160/index.m3u8?expire=1772479618&sign=6bcb577941fc8177f872083a07d9c4a3
 #EXTINF:-1 group-title="KayTee",[03:00] Link xem trực tiếp Deportivo Alavés vs Girona FC lúc 03:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 3)
 https://live.alilicloud.com/live/7cd1173e281f15fa466f2383e388a65b/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Link xem trực tiếp Shamrock Rovers vs Dundalk lúc 03:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://live.alilicloud.com/live/6a5a5ad864b9e690eea393bace9f0572/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[03:00] Link xem trực tiếp UCV Moquegua vs Deportivo Garcilaso lúc 03:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/d0f9d8c77315bd0e90650cacb0b114a1/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[03:00] Link xem trực tiếp Grenada U20 vs French Saint-Martin U20 lúc 03:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/46a11f8adf7bdc9e555fbe4b414cd208/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Link xem trực tiếp Antigua Barbuda U20 vs St Lucia U20 lúc 03:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://live.alilicloud.com/live/dde98f99f07a604da9e185b0ba813204/playlist.m3u8
