@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 group-title="KayTee",[14:10] Link xem trực tiếp Darko JORGIC vs CHEN Yuanyu lúc 14:10 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://cdn-hls.taoxanh.biz/live/699bcd9bfe270_112310/index.m3u8?expire=1772423195&sign=3b33087fcbc775d901d19611db994135
-#EXTINF:-1 group-title="KayTee",[14:00] Link xem trực tiếp Belarus U16 vs Minsk U19 lúc 14:00 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://live.alilicloud.com/live/afb47f4bfa177e0dcace6bb2577b379d/playlist.m3u8
