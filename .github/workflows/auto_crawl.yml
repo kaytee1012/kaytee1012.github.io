@@ -2,22 +2,23 @@ name: Auto Crawl BunchaTV Link
 
 on:
   schedule:
-    # Chạy 5 phút 1 lần
-    - cron: '*/15 * * * *'
-  workflow_dispatch: # Cái này cho phép mày bấm nút chạy bằng tay trên web GitHub lúc nào thích
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Install Dependencies
         run: |
@@ -25,12 +26,16 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run Crawler Script
-        run: python crawl_to_m3u.py  # Sửa lại đúng tên file python của mày nhé
+        run: python crawl_to_m3u.py
 
       - name: Commit and Push changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Bot"
-          git add buncha.txt
-          # Nếu có file mới hoặc thay đổi thì nó mới commit
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto update IPTV links" && git push)
+          git config user.email "action@github.com"
+          git config user.name "GitHub Action Bot"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes."
+          else
+            git commit -m "Auto update IPTV links"
+            git push
+          fi
