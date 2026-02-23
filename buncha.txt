@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="KayTee",[00:00] Link xem trực tiếp Bnei Yehuda Tel Aviv vs Maccabi Petah Tikva FC lúc 00:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://live.alilicloud.com/live/39fe4d1d310ee269fe45ca1b474b9e77/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:00] Link xem trực tiếp Ironi Modiin vs Hapoel Kfar Shalem lúc 00:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/d104a4898daee6bc89dfbb56fac7fb51/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:00] Link xem trực tiếp Stal Mielec vs LKS Lodz lúc 00:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
@@ -19,6 +17,10 @@ https://live.alilicloud.com/live/edc2347bb60c7427a46de516a1e14ca9/playlist.m3u8
 https://live.alilicloud.com/live/b9a30347a88626150c6be6c2bfacd44e/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:45] Link xem trực tiếp Fehérvár FC vs Kecskemeti TE lúc 23:45 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/ffbb4746398dc42f4c2af96af1dcbe5f/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[23:30] Link xem trực tiếp Halys Q. vs Draper J. lúc 23:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
+https://cdn-hls.taoxanh.biz/live/699c8a18fe271_4733/index.m3u8?expire=1772471448&sign=1a671482b56324035c98b011de21f27b
+#EXTINF:-1 group-title="KayTee",[23:30] Link xem trực tiếp Halys Q. vs Draper J. lúc 23:30 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 2)
+https://cdn-hls.taoxanh.biz/live/699c8a3026634_110198/index.m3u8?expire=1772471472&sign=8059edfe1af5ed9547aca748d2dce375
 #EXTINF:-1 group-title="KayTee",[23:15] Link xem trực tiếp East End Lions vs Kamboi Eagles lúc 23:15 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/603712d2a9d0db45efc0f8085984e294/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:00] Link xem trực tiếp Botev Plovdiv vs Ludogorets Razgrad lúc 23:00 ngày 23/02 vs TOP NHÀ CÁI UY TÍN Tất cả
