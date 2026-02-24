@@ -7,8 +7,6 @@ https://cdn-hls.taoxanh.biz/live/699d6e7526634_136712/index.m3u8?expire=17725299
 https://live.alilicloud.com/live/80071dd42de1376e127ad5cddbffbc14/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp KB Stars vs Samsung Blue Fangs 17:00 ngày 24/02 Volleyball League
 https://cdn-hls.taoxanh.biz/live/699d7024fe273_4439/index.m3u8?expire=1772530340&sign=3eb1f633495b9b654450e10b75005c6c
-#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp KB Stars vs Samsung Blue Fangs 17:00 ngày 24/02 Volleyball League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699d6d4026634_88642/index.m3u8?expire=1772529600&sign=5a9dae7f05453556fefcc126e3e92c09
 #EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Hyundai E&C Hillstate W vs Expressway Co W 17:00 ngày 24/02 Volleyball League Women
 https://cdn-hls.taoxanh.biz/live/699d7065fe273_133172/index.m3u8?expire=1772530405&sign=d40a80a1cb82468dbfc48ee1352d9fd8
 #EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Hyundai E&C Hillstate W vs Expressway Co W 17:00 ngày 24/02 Volleyball League Women (Link 2)
