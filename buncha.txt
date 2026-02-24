@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="KayTee",[04:00] Xem trực tiếp Union Magdalena vs Tigres Zipaquira 04:00 ngày 25/02 Colombian Torneo BetPlay Dimayor
-https://live.alilicloud.com/live/a958eaad5153d0bd2b3e8a3005cce272/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[04:00] Xem trực tiếp st Vincent the Grenadine U20 vs Anguilla U20 04:00 ngày 25/02 CONCACAF U20 Championship
 https://live.alilicloud.com/live/80dbe9a6adb20fb738a3e7db572957e7/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[03:30] Xem trực tiếp Envigado FC vs Deportes Quindio 03:30 ngày 25/02 Colombian Torneo BetPlay Dimayor
@@ -13,25 +11,7 @@ https://cdn-hls.taoxanh.biz/live/699df39726634_124958/index.m3u8?expire=17725639
 https://live.alilicloud.com/live/c34317946e410be1f7823850b922e00b/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp CA Platense vs Defensa Y Justicia 03:00 ngày 25/02 Argentine Division 1
 https://live.alilicloud.com/live/3c82c527f1a231b6eb1f20969d73d4e3/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Inter Milan vs Bodo Glimt 03:00 ngày 25/02 UEFA Champions League
-https://cdn-hls.taoxanh.biz/live/699dfc3dfe274_79/index.m3u8?expire=1772566205&sign=0323c655804bae39ea61b723108eb9fd
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Inter Milan vs Bodo Glimt 03:00 ngày 25/02 UEFA Champions League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699df94626634_44731/index.m3u8?expire=1772565446&sign=1abfe8e2ea4977429c88b60f9bef9e3f
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Inter Milan vs Bodo Glimt 03:00 ngày 25/02 UEFA Champions League (Link 3)
-https://live.alilicloud.com/live/6615b58d5b9202cf2948bd2afd056662/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Bayer 04 Leverkusen vs Olympiakos Piraeus 03:00 ngày 25/02 UEFA Champions League
-https://cdn-hls.taoxanh.biz/live/699dff09fe275_5160/index.m3u8?expire=1772566921&sign=dbcc5cfeb51356969822bf84e76c2bdb
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Bayer 04 Leverkusen vs Olympiakos Piraeus 03:00 ngày 25/02 UEFA Champions League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699dfccdfe274_85514/index.m3u8?expire=1772566349&sign=1752bc7f129834bfcaf9c3a005d72ba2
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Bayer 04 Leverkusen vs Olympiakos Piraeus 03:00 ngày 25/02 UEFA Champions League (Link 3)
-https://live.alilicloud.com/live/bc8701e1ca0631a2bf41f12fa8a28a7d/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Newcastle United vs Qarabag 03:00 ngày 25/02 UEFA Champions League
-https://cdn-hls.taoxanh.biz/live/699dfd32fe275_4908/index.m3u8?expire=1772566450&sign=10570f77174eae6acb1919e9e2119201
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Newcastle United vs Qarabag 03:00 ngày 25/02 UEFA Champions League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699dfceefe275_28/index.m3u8?expire=1772566382&sign=df1cc498afdee47a3cdc052986357a22
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Newcastle United vs Qarabag 03:00 ngày 25/02 UEFA Champions League (Link 3)
-https://live.alilicloud.com/live/9a10ec5d600ec986f0d7b465ed27ec47/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Trinidad Tobago U20 vs Bermuda U20 03:00 ngày 25/02 CONCACAF U20 Championship
-https://live.alilicloud.com/live/2fa0775cc290dc7d65e10b8349a5d824/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Poland vs Team Philippines 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699dcc9826634_17480/index.m3u8?expire=1772554008&sign=4d88e5a298a8deb9f32b9145040bb407
+#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team South Korea vs Team USA - A 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
+https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
