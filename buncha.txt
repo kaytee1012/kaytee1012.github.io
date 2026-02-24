@@ -7,14 +7,18 @@ https://cdn-hls.taoxanh.biz/live/699dd88afe274_88186/index.m3u8?expire=177255706
 https://cdn-hls.taoxanh.biz/live/699dee8a26634_136706/index.m3u8?expire=1772562698&sign=ce18ea5c2ee061f479f255c68098391e
 #EXTINF:-1 group-title="KayTee",[02:00] Xem trực tiếp Al-Taawoun vs Al Hilal 02:00 ngày 25/02 Saudi Professional League (Link 3)
 https://live.alilicloud.com/live/63a2c6e8b8198b9edb2b03a4d7f84bed/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[02:00] Xem trực tiếp Willem II vs ADO Den Haag 02:00 ngày 25/02 Netherlands Eerste Divisie
+https://live.alilicloud.com/live/07d87dd787525a3b508b65910842a023/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[02:00] Xem trực tiếp SC Cambuur Leeuwarden vs FC Eindhoven 02:00 ngày 25/02 Netherlands Eerste Divisie
+https://live.alilicloud.com/live/7db1cce6bbf1daa9dbb10697197aec94/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[02:00] Xem trực tiếp Luton Town vs Plymouth Argyle 02:00 ngày 25/02 English Football League Trophy
+https://live.alilicloud.com/live/1de0d0bbcacdd6780b7e444eec3f3b04/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Abha vs Al Anwar SA 01:45 ngày 25/02 Saudi Arabia Division 1
 https://live.alilicloud.com/live/55496a9446fd1fabbbc44aa16e1428ce/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Batin vs Al Wehda Mecca 01:45 ngày 25/02 Saudi Arabia Division 1
 https://live.alilicloud.com/live/3f26e7b9326899b4e3f08427198682b6/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al Bukayriyah vs Al-Jandal 01:45 ngày 25/02 Saudi Arabia Division 1
 https://live.alilicloud.com/live/4b5df5ac98aa05ce2805494ab0dca8d8/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Orubah vs Al-Jabalain 01:45 ngày 25/02 Saudi Arabia Division 1
-https://live.alilicloud.com/live/249bad105695e1e6bdc2296d844cf33a/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Raed SFC vs Jubail 01:45 ngày 25/02 Saudi Arabia Division 1
 https://live.alilicloud.com/live/676ae1941f82fdfb1ee04050970ed53d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Ahly vs Shabab Al Ordon 01:45 ngày 25/02 Jordan Premier League
