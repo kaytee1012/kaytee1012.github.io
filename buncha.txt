@@ -3,8 +3,6 @@
 https://cdn-hls.taoxanh.biz/live/699d633afe272_6308/index.m3u8?expire=1772527034&sign=985a77a90398a3eb09e9ca1f43645820
 #EXTINF:-1 group-title="KayTee",[20:30] Xem trực tiếp Bhayangkara Presisi Indonesia FC vs Semen Padang 20:30 ngày 24/02 Indonesian Liga 1 (Link 2)
 https://live.alilicloud.com/live/4c158ed8313c0b4084d051a1dee74502/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Sabail FC vs Baku Sportinq FK 20:00 ngày 24/02 Azerbaijan First Division
-https://live.alilicloud.com/live/f9b799eb7c644d0ddd8a03e9f8d145c0/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League
 https://cdn-hls.taoxanh.biz/live/699d9a9afe274_88642/index.m3u8?expire=1772541210&sign=216afc930b6e9f04e9767caa90accb7e
 #EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League (Link 2)
@@ -27,5 +25,3 @@ https://cdn-hls.taoxanh.biz/live/699d8a1efe273_128756/index.m3u8?expire=17725369
 https://live.alilicloud.com/live/14e4921b641f31c19f6b310b7b0679e6/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[18:30] Xem trực tiếp Shevchenko A. vs K. Khachanov 18:30 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699d860426634_110198/index.m3u8?expire=1772535940&sign=599bc1f51302c99501b6335ab42eb13b
-#EXTINF:-1 group-title="KayTee",[18:30] Xem trực tiếp Thailand Futsal Women vs Indonesia Futsal Women 18:30 ngày 24/02 ASEAN Women's Futsal
-https://cdn-hls.taoxanh.biz/live/699d8a3626634_17480/index.m3u8?expire=1772537014&sign=1b111b2617fd66f27a8d881d38a934b1
