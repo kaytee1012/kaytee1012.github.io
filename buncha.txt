@@ -1,5 +1,15 @@
 #EXTM3U
-#EXTINF:-1 group-title="KayTee",[19:25] Xem trực tiếp Xiaoxin YANG vs Miyu NAGASAKI 19:25 ngày 24/02 Table 2 - WTT Singapore Smash 2026
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Angola Women vs Malawi (w) 20:00 ngày 24/02 COSAFA Women's Cup
+https://live.alilicloud.com/live/2437ef8afb55390fe4795b0b85e9a3b6/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp South Africa Women vs Lesotho Women 20:00 ngày 24/02 COSAFA Women's Cup
+https://live.alilicloud.com/live/e49e36adda8c69569ec26326b77570b9/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Sabail FC vs Baku Sportinq FK 20:00 ngày 24/02 Azerbaijan First Division
+https://live.alilicloud.com/live/f9b799eb7c644d0ddd8a03e9f8d145c0/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League
+https://cdn-hls.taoxanh.biz/live/699d9a9afe274_88642/index.m3u8?expire=1772541210&sign=216afc930b6e9f04e9767caa90accb7e
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League (Link 2)
+https://live.alilicloud.com/live/c5d1d2db77b7fc3ce56e080d09846866/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp JANG Woojin vs Vladimir SIDORENKO 20:00 ngày 24/02 Table 2 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699d7392fe273_18754/index.m3u8?expire=1772531218&sign=9eb05e67241c2828e1edacaf264a1173
 #EXTINF:-1 group-title="KayTee",[19:15] Xem trực tiếp Viettel FC vs Nam Dinh FC 19:15 ngày 24/02 Vietnam National Champion League
 https://cdn-hls.taoxanh.biz/live/699d8a5726634_5160/index.m3u8?expire=1772537047&sign=17909bf8b306f8540b18122ffc11c382
@@ -21,21 +31,3 @@ https://cdn-hls.taoxanh.biz/live/699d860426634_110198/index.m3u8?expire=17725359
 https://cdn-hls.taoxanh.biz/live/699d8a3626634_17480/index.m3u8?expire=1772537014&sign=1b111b2617fd66f27a8d881d38a934b1
 #EXTINF:-1 group-title="KayTee",[18:05] Xem trực tiếp CHENG I-Ching vs WANG Manyu 18:05 ngày 24/02 Table 1 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699d719d26634_42127/index.m3u8?expire=1772530717&sign=bcb1a1b6f8154d3607a2b08fcd971634
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp CLB Thanh Hoa vs Cong An Ha Noi FC 18:00 ngày 24/02 Vietnam National Champion League
-https://cdn-hls.taoxanh.biz/live/699d7b7d26634_79/index.m3u8?expire=1772533245&sign=59502665b5be9410408e6a92a9fa03fe
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp CLB Thanh Hoa vs Cong An Ha Noi FC 18:00 ngày 24/02 Vietnam National Champion League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699d7e2e26634_28/index.m3u8?expire=1772533934&sign=3d5045182e347f025f4fe208491f7cd1
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp CLB Thanh Hoa vs Cong An Ha Noi FC 18:00 ngày 24/02 Vietnam National Champion League (Link 3)
-https://cdn-hls.taoxanh.biz/live/699d7c43fe273_124958/index.m3u8?expire=1772533443&sign=b428044ca0dd291cd5759373e93fb419
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp CLB Thanh Hoa vs Cong An Ha Noi FC 18:00 ngày 24/02 Vietnam National Champion League (Link 4)
-https://live.alilicloud.com/live/bf5d3aaf3fc79db21d386b07ff12794b/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Gil Vicente U23 vs Portimonense U23 18:00 ngày 24/02 Portuguese U23 League
-https://cdn-hls.taoxanh.biz/live/699d8032fe273_88186/index.m3u8?expire=1772534450&sign=5e6ee0f3693a19a4a47823a9feebe2ed
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Gil Vicente U23 vs Portimonense U23 18:00 ngày 24/02 Portuguese U23 League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699d819b26634_136688/index.m3u8?expire=1772534811&sign=8f0f9bf0ab61086f67bc63c4e2db032b
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Gil Vicente U23 vs Portimonense U23 18:00 ngày 24/02 Portuguese U23 League (Link 3)
-https://live.alilicloud.com/live/9c3294218ddef65b06275307e5c1ee91/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Simal FK vs Cəbrayıl FK 18:00 ngày 24/02 Azerbaijan First Division
-https://cdn-hls.taoxanh.biz/live/699d7d93fe273_68958/index.m3u8?expire=1772533779&sign=46a76ed27a95f0b47fa992f80782ec39
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Simal FK vs Cəbrayıl FK 18:00 ngày 24/02 Azerbaijan First Division (Link 2)
-https://live.alilicloud.com/live/adcc4fb19d4ac95b442d4252b36128ea/playlist.m3u8
