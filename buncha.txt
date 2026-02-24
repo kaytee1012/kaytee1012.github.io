@@ -7,10 +7,6 @@ https://live.alilicloud.com/live/4c158ed8313c0b4084d051a1dee74502/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699d9a9afe274_88642/index.m3u8?expire=1772541210&sign=216afc930b6e9f04e9767caa90accb7e
 #EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League (Link 2)
 https://live.alilicloud.com/live/c5d1d2db77b7fc3ce56e080d09846866/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp CHEW C. / CHUA J. vs LIN Shidong / HUANG Youzheng 20:00 ngày 24/02 Table 1 - WTT Singapore Smash 2026
-https://cdn-hls.taoxanh.biz/live/699d719d26634_42127/index.m3u8?expire=1772530717&sign=bcb1a1b6f8154d3607a2b08fcd971634
-#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp JANG Woojin vs Vladimir SIDORENKO 20:00 ngày 24/02 Table 2 - WTT Singapore Smash 2026
-https://cdn-hls.taoxanh.biz/live/699d7392fe273_18754/index.m3u8?expire=1772531218&sign=9eb05e67241c2828e1edacaf264a1173
 #EXTINF:-1 group-title="KayTee",[19:15] Xem trực tiếp Viettel FC vs Nam Dinh FC 19:15 ngày 24/02 Vietnam National Champion League
 https://cdn-hls.taoxanh.biz/live/699d8a5726634_5160/index.m3u8?expire=1772537047&sign=17909bf8b306f8540b18122ffc11c382
 #EXTINF:-1 group-title="KayTee",[19:15] Xem trực tiếp Viettel FC vs Nam Dinh FC 19:15 ngày 24/02 Vietnam National Champion League (Link 2)
