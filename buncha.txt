@@ -13,10 +13,10 @@ https://live.alilicloud.com/live/bf5d3aaf3fc79db21d386b07ff12794b/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699d8032fe273_88186/index.m3u8?expire=1772534450&sign=5e6ee0f3693a19a4a47823a9feebe2ed
 #EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Gil Vicente U23 vs Portimonense U23 18:00 ngày 24/02 Portuguese U23 League (Link 2)
 https://cdn-hls.taoxanh.biz/live/699d819b26634_136688/index.m3u8?expire=1772534811&sign=8f0f9bf0ab61086f67bc63c4e2db032b
-#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Gil Vicente U23 vs Portimonense U23 18:00 ngày 24/02 Portuguese U23 League (Link 3)
-https://live.alilicloud.com/live/9c3294218ddef65b06275307e5c1ee91/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Simal FK vs Cəbrayıl FK 18:00 ngày 24/02 Azerbaijan First Division
 https://cdn-hls.taoxanh.biz/live/699d7d93fe273_68958/index.m3u8?expire=1772533779&sign=46a76ed27a95f0b47fa992f80782ec39
+#EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp Simal FK vs Cəbrayıl FK 18:00 ngày 24/02 Azerbaijan First Division (Link 2)
+https://live.alilicloud.com/live/adcc4fb19d4ac95b442d4252b36128ea/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[18:00] Xem trực tiếp FK Gilan Gabala vs Turan Tovuz 18:00 ngày 24/02 Azerbaijan Premier League
 https://live.alilicloud.com/live/60cde0850b39f30dd7d4205fa1b2ab3d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[17:50] Xem trực tiếp B. DUDA / D. QIU vs Y. ABDELAZIZ / M. ELBEIALI 17:50 ngày 24/02 Table 2 - WTT Singapore Smash 2026
