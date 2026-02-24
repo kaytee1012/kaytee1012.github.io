@@ -11,13 +11,9 @@ https://live.alilicloud.com/live/69d75e5e927007ea2158fca36059d611/playlist.m3u8
 https://live.alilicloud.com/live/b9be1ccaa4c7df9d41ae2430b1d19728/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Martinique U20 vs US Virgin Islands U20 05:00 ngày 25/02 CONCACAF U20 Championship
 https://live.alilicloud.com/live/f299bb3e54b7eff9d4b942395e8b97d9/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Team Hà Lan vs Team Việt Nam 05:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
+https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
 #EXTINF:-1 group-title="KayTee",[04:00] Xem trực tiếp Union Magdalena vs Tigres Zipaquira 04:00 ngày 25/02 Colombian Torneo BetPlay Dimayor
 https://live.alilicloud.com/live/a958eaad5153d0bd2b3e8a3005cce272/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[04:00] Xem trực tiếp st Vincent the Grenadine U20 vs Anguilla U20 04:00 ngày 25/02 CONCACAF U20 Championship
 https://live.alilicloud.com/live/80dbe9a6adb20fb738a3e7db572957e7/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:30] Xem trực tiếp Envigado FC vs Deportes Quindio 03:30 ngày 25/02 Colombian Torneo BetPlay Dimayor
-https://live.alilicloud.com/live/6206c9e9e9b46ad6e5dc1660f3fa9a9d/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Poland vs Team Philippines 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
-https://cdn-hls.taoxanh.biz/live/699dcc9826634_17480/index.m3u8?expire=1772554008&sign=4d88e5a298a8deb9f32b9145040bb407
-#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team South Korea vs Team USA - A 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
-https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
