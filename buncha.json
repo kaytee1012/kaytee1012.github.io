@@ -283,6 +283,73 @@
           ]
         },
         {
+          "id": "kaytee-776c16c431c4",
+          "name": "Xem trực tiếp Rosenborg vs Start Kristiansand 23:00 ngày 24/02 International Club Friendly",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "23:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "23:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-b53cfcf395",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-b53cfcf395",
+                  "name": "Xem trực tiếp Rosenborg vs Start Kristiansand 23:00 ngày 24/02 International Club Friendly",
+                  "streams": [
+                    {
+                      "id": "st-b53cfcf395",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b53cfcf395",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/1f26c9abf00da874e6f8bddc4b440a27/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/rosenborg-vs-start-kristiansand-2300-24-02-2026/601274924"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "kaytee-8dba506e8635",
           "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League",
           "labels": [
