@@ -1,0 +1,293 @@
+{
+  "id": "buncha",
+  "url": "https://tt.8share.pro/buncha",
+  "name": "Bún Chả TV",
+  "color": "#1cb57a",
+  "description": "Bún Chả TV - Trang web phát sóng bóng đá trực tuyến miễn phí hàng đầu tại Việt Nam, mang đến trải nghiệm chất lượng cao với bình luận tiếng Việt sống động.",
+  "image": {
+    "url": "https://tt.8share.pro/assets/buncha_logo.png"
+  },
+  "groups": [
+    {
+      "id": "live",
+      "name": "🔴 Live",
+      "display": "horizontal",
+      "grid_number": 2,
+      "channels": [
+        {
+          "id": "kaytee-826806324f10",
+          "name": "Xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women 13:30 ngày 24/02 ASEAN Women's Futsal",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "13:30",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "13:30",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-87690da965",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-87690da965",
+                  "name": "Xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women 13:30 ngày 24/02 ASEAN Women's Futsal",
+                  "streams": [
+                    {
+                      "id": "st-87690da965",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87690da965",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699d35b1fe272_72787/index.m3u8?expire=1772515377&sign=ba6001c5cc53d2664c8fec94c4be188e",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/vietnam-futsal-women-vs-australia-futsal-women-1330-24-02-2026/601275098"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-b8a995c0c897",
+          "name": "Xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women 13:30 ngày 24/02 ASEAN Women's Futsal (Link 2)",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "13:30",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "13:30",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-5c51898f01",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-5c51898f01",
+                  "name": "Xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women 13:30 ngày 24/02 ASEAN Women's Futsal (Link 2)",
+                  "streams": [
+                    {
+                      "id": "st-5c51898f01",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c51898f01",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699d45c426634_79/index.m3u8?expire=1772519492&sign=f6372e9af3cb192baf70a644dbf96fea",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/vietnam-futsal-women-vs-australia-futsal-women-1330-24-02-2026/601275098"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-7dbacdd4d656",
+          "name": "Xem trực tiếp Honoka HASHIMOTO vs Bernadette Szocs 13:00 ngày 24/02 Table 1 - WTT Singapore Smash 2026",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "13:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "13:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-0e455a082c",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-0e455a082c",
+                  "name": "Xem trực tiếp Honoka HASHIMOTO vs Bernadette Szocs 13:00 ngày 24/02 Table 1 - WTT Singapore Smash 2026",
+                  "streams": [
+                    {
+                      "id": "st-0e455a082c",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0e455a082c",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699d1b34fe272_4733/index.m3u8?expire=1772508596&sign=a89a7023c7676546ba051803d43182bc",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/honoka-hashimoto-vs-bernadette-szocs-1300-24-02-2026/601274936"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-085bc3f554fc",
+          "name": "Xem trực tiếp Flavien COTON vs ZHOU Qihao 12:50 ngày 24/02 Table 2 - WTT Singapore Smash 2026",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "12:50",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "12:50",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-b53bf0fba1",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-b53bf0fba1",
+                  "name": "Xem trực tiếp Flavien COTON vs ZHOU Qihao 12:50 ngày 24/02 Table 2 - WTT Singapore Smash 2026",
+                  "streams": [
+                    {
+                      "id": "st-b53bf0fba1",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b53bf0fba1",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699d1be1fe272_110198/index.m3u8?expire=1772508769&sign=8bdab6a2add933202f05608039ebdd9f",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/flavien-coton-vs-zhou-qihao-1250-24-02-2026/601274942"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "option": {
+    "save_history": false,
+    "save_search_history": false,
+    "save_wishlist": false
+  }
+}
