@@ -9,6 +9,8 @@ https://live.alilicloud.com/live/f9b799eb7c644d0ddd8a03e9f8d145c0/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699d9a9afe274_88642/index.m3u8?expire=1772541210&sign=216afc930b6e9f04e9767caa90accb7e
 #EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League (Link 2)
 https://live.alilicloud.com/live/c5d1d2db77b7fc3ce56e080d09846866/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp CHEW C. / CHUA J. vs LIN Shidong / HUANG Youzheng 20:00 ngày 24/02 Table 1 - WTT Singapore Smash 2026
+https://cdn-hls.taoxanh.biz/live/699d719d26634_42127/index.m3u8?expire=1772530717&sign=bcb1a1b6f8154d3607a2b08fcd971634
 #EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp JANG Woojin vs Vladimir SIDORENKO 20:00 ngày 24/02 Table 2 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699d7392fe273_18754/index.m3u8?expire=1772531218&sign=9eb05e67241c2828e1edacaf264a1173
 #EXTINF:-1 group-title="KayTee",[19:15] Xem trực tiếp Viettel FC vs Nam Dinh FC 19:15 ngày 24/02 Vietnam National Champion League
@@ -29,5 +31,3 @@ https://live.alilicloud.com/live/14e4921b641f31c19f6b310b7b0679e6/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699d860426634_110198/index.m3u8?expire=1772535940&sign=599bc1f51302c99501b6335ab42eb13b
 #EXTINF:-1 group-title="KayTee",[18:30] Xem trực tiếp Thailand Futsal Women vs Indonesia Futsal Women 18:30 ngày 24/02 ASEAN Women's Futsal
 https://cdn-hls.taoxanh.biz/live/699d8a3626634_17480/index.m3u8?expire=1772537014&sign=1b111b2617fd66f27a8d881d38a934b1
-#EXTINF:-1 group-title="KayTee",[18:05] Xem trực tiếp CHENG I-Ching vs WANG Manyu 18:05 ngày 24/02 Table 1 - WTT Singapore Smash 2026
-https://cdn-hls.taoxanh.biz/live/699d719d26634_42127/index.m3u8?expire=1772530717&sign=bcb1a1b6f8154d3607a2b08fcd971634
