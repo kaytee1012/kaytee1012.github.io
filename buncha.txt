@@ -1,12 +1,20 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[01:00] Xem trực tiếp Atletico Paranaense (Youth) vs Cuiaba (MT) (Youth) 01:00 ngày 25/02 Brazilian Youth League
+https://live.alilicloud.com/live/e65d08b765ab493ce442f3a0a72d2a88/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[00:45] Xem trực tiếp Atletico Madrid vs Club Brugge 00:45 ngày 25/02 UEFA Champions League
+https://cdn-hls.taoxanh.biz/live/699ddee826634_133136/index.m3u8?expire=1772558696&sign=61ba52fa2930aa1851f39d6522e36de8
+#EXTINF:-1 group-title="KayTee",[00:45] Xem trực tiếp Atletico Madrid vs Club Brugge 00:45 ngày 25/02 UEFA Champions League (Link 2)
+https://cdn-hls.taoxanh.biz/live/699de2f3fe274_4908/index.m3u8?expire=1772559731&sign=7977bbb898e3ea3273d7d6481d67b99a
+#EXTINF:-1 group-title="KayTee",[00:45] Xem trực tiếp Atletico Madrid vs Club Brugge 00:45 ngày 25/02 UEFA Champions League (Link 3)
+https://live.alilicloud.com/live/0f05b6c866b9f04814ef3c73854276da/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:30] Xem trực tiếp Trenkwalder Admira Wacker vs FK Austria Vienna Youth 00:30 ngày 25/02 Austrian 2.Liga
 https://live.alilicloud.com/live/fadef48b10026cf32ac2361c117bc64c/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:30] Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:30 ngày 25/02 International Club Friendly
 https://live.alilicloud.com/live/529ad4ecc68d208dca556fcba09ea1ac/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp Barbados U20 vs The Saint Martin U20 00:00 ngày 25/02 CONCACAF U20 Championship
-https://live.alilicloud.com/live/6ac5376953cebc9d7fe4714147ac3269/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp Zaglebie Sosnowiec vs Sandecja Nowy Sacz 00:00 ngày 25/02 Poland Liga 2
 https://live.alilicloud.com/live/fb09c11d0877ae2155b76f7581bbbf7d/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp Barbados U20 vs The Saint Martin U20 00:00 ngày 25/02 CONCACAF U20 Championship
+https://live.alilicloud.com/live/6ac5376953cebc9d7fe4714147ac3269/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp A. Rublev vs Royer V. 23:30 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699dc9fd26634_132584/index.m3u8?expire=1772553341&sign=8d514970e465f86ab6f059baa647105c
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Poland vs Team Philippines 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
