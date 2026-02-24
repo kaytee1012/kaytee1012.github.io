@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="KayTee",[08:30] Link xem trực tiếp CA Independente vs Tauro FC lúc 08:30 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
-https://cdn-hls.taoxanh.biz/live/699ce803fe272_103/index.m3u8?expire=1772495491&sign=eefbfb61a40e4082f14a7cfb3330416f
 #EXTINF:-1 group-title="KayTee",[08:00] Link xem trực tiếp International San Carlos vs AD Cofutpa lúc 08:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/72093f9634bf54041fc48a0e26c960df/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Link xem trực tiếp Memphis Grizzlies vs Sacramento Kings lúc 08:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
