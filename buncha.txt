@@ -1,9 +1,9 @@
 #EXTM3U
-#EXTINF:-1 group-title="KayTee",[13:30] Link xem trực tiếp CHEN Xingtong vs Constantina PSIHOGIOS lúc 13:30 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
+#EXTINF:-1 group-title="KayTee",[13:30] Xem trực tiếp CHEN Xingtong vs Constantina PSIHOGIOS 13:30 ngày 24/02 Table 2 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699d1be1fe272_110198/index.m3u8?expire=1772508769&sign=8bdab6a2add933202f05608039ebdd9f
-#EXTINF:-1 group-title="KayTee",[13:30] Link xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women lúc 13:30 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
+#EXTINF:-1 group-title="KayTee",[13:30] Xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women 13:30 ngày 24/02 ASEAN Women's Futsal
 https://cdn-hls.taoxanh.biz/live/699d35b1fe272_72787/index.m3u8?expire=1772515377&sign=ba6001c5cc53d2664c8fec94c4be188e
-#EXTINF:-1 group-title="KayTee",[13:30] Link xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women lúc 13:30 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả (Link 2)
+#EXTINF:-1 group-title="KayTee",[13:30] Xem trực tiếp Vietnam Futsal Women vs Australia Futsal Women 13:30 ngày 24/02 ASEAN Women's Futsal (Link 2)
 https://cdn-hls.taoxanh.biz/live/699d45c426634_79/index.m3u8?expire=1772519492&sign=f6372e9af3cb192baf70a644dbf96fea
-#EXTINF:-1 group-title="KayTee",[13:00] Link xem trực tiếp Honoka HASHIMOTO vs Bernadette Szocs lúc 13:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
+#EXTINF:-1 group-title="KayTee",[13:00] Xem trực tiếp Honoka HASHIMOTO vs Bernadette Szocs 13:00 ngày 24/02 Table 1 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699d1b34fe272_4733/index.m3u8?expire=1772508596&sign=a89a7023c7676546ba051803d43182bc
