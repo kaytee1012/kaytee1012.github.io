@@ -13,8 +13,6 @@ https://live.alilicloud.com/live/9591c371df44ea5757979a6827b612fb/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699db455fe274_5160/index.m3u8?expire=1772547797&sign=f6e4d351328814aa9bae81a816ce73cc
 #EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp Eintracht Frankfurt U19 vs Sporting CP U19 22:00 ngày 24/02 UEFA Youth League (Link 2)
 https://live.alilicloud.com/live/6daa4bb108100bfab5be0687d4c6fd1f/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp FC Flora Tallinn vs Riga FC 22:00 ngày 24/02 International Club Friendly
-https://live.alilicloud.com/live/9babb270267db9157a2d59cb826ea85f/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[21:15] Xem trực tiếp Nardi L. vs Lehecka J. 21:15 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699db0e2fe274_110198/index.m3u8?expire=1772546914&sign=f2f12bf900d464012f1cb2b592d1455b
 #EXTINF:-1 group-title="KayTee",[21:00] Xem trực tiếp Odisha FC vs Inter Kashi 21:00 ngày 24/02 Indian Super League
