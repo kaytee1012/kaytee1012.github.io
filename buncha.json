@@ -13,7 +13,209 @@
       "name": "🔴 Live",
       "display": "horizontal",
       "grid_number": 2,
-      "channels": []
+      "channels": [
+        {
+          "id": "kaytee-87611e2f68bf",
+          "name": "Xem trực tiếp Dagon Star United vs Rakhine United FC 16:00 ngày 24/02 Myanmar Professional League",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "16:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "16:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-ac34b9d53b",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-ac34b9d53b",
+                  "name": "Xem trực tiếp Dagon Star United vs Rakhine United FC 16:00 ngày 24/02 Myanmar Professional League",
+                  "streams": [
+                    {
+                      "id": "st-ac34b9d53b",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ac34b9d53b",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699d633afe272_6308/index.m3u8?expire=1772527034&sign=985a77a90398a3eb09e9ca1f43645820",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/dagon-star-united-vs-rakhine-united-fc-1600-24-02-2026/601256744"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-05e24ad66221",
+          "name": "Xem trực tiếp Dagon Star United vs Rakhine United FC 16:00 ngày 24/02 Myanmar Professional League (Link 2)",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "16:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "16:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-34b1539649",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-34b1539649",
+                  "name": "Xem trực tiếp Dagon Star United vs Rakhine United FC 16:00 ngày 24/02 Myanmar Professional League (Link 2)",
+                  "streams": [
+                    {
+                      "id": "st-34b1539649",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34b1539649",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/af6f4eb886cc118c81acd8bb7daf92e8/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/dagon-star-united-vs-rakhine-united-fc-1600-24-02-2026/601256744"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-7e6acdbbebce",
+          "name": "Xem trực tiếp Myanmar Futsal Women vs Philippines Futsal Women 16:00 ngày 24/02 ASEAN Women's Futsal",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "16:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "16:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-da07cdf875",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-da07cdf875",
+                  "name": "Xem trực tiếp Myanmar Futsal Women vs Philippines Futsal Women 16:00 ngày 24/02 ASEAN Women's Futsal",
+                  "streams": [
+                    {
+                      "id": "st-da07cdf875",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-da07cdf875",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699d5e14fe272_79/index.m3u8?expire=1772525716&sign=828f6ac119292cf5fac2fc307a520ff3",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/myanmar-futsal-women-vs-philippines-futsal-women-1600-24-02-2026/601275104"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "option": {
