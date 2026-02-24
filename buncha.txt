@@ -17,5 +17,3 @@ https://cdn-hls.taoxanh.biz/live/699e18f226634_74012/index.m3u8?expire=177257355
 https://live.alilicloud.com/live/69d75e5e927007ea2158fca36059d611/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Joinville SC vs Centro Sportivo Alagoano 05:00 ngày 25/02 Brazilian Cup
 https://live.alilicloud.com/live/b9be1ccaa4c7df9d41ae2430b1d19728/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Martinique U20 vs US Virgin Islands U20 05:00 ngày 25/02 CONCACAF U20 Championship
-https://live.alilicloud.com/live/f299bb3e54b7eff9d4b942395e8b97d9/playlist.m3u8
