@@ -14,7 +14,7 @@ if %errorlevel%==0 (
 )
 
 git commit -m "auto: update iptv"
-git push
+git push -f origin main
 
 echo Done. %date% %time%
 endlocal
