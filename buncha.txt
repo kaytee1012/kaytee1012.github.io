@@ -1,4 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp A. Rublev vs Royer V. 23:30 ngày 24/02 ATP Dubai
+https://cdn-hls.taoxanh.biz/live/699dc9fd26634_132584/index.m3u8?expire=1772553341&sign=8d514970e465f86ab6f059baa647105c
+#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Norway vs Team Singapore 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
+https://cdn-hls.taoxanh.biz/live/699dcc9f26634_68958/index.m3u8?expire=1772554015&sign=966f50e69b7654973cb9829a2babeb37
+#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Poland vs Team Philippines 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
+https://cdn-hls.taoxanh.biz/live/699dcc9826634_17480/index.m3u8?expire=1772554008&sign=4d88e5a298a8deb9f32b9145040bb407
+#EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team South Korea vs Team USA - A 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
+https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
 #EXTINF:-1 group-title="KayTee",[23:00] Xem trực tiếp Rosenborg vs Start Kristiansand 23:00 ngày 24/02 International Club Friendly
 https://live.alilicloud.com/live/1f26c9abf00da874e6f8bddc4b440a27/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Humbert U. vs Tsitsipas S. 22:30 ngày 24/02 ATP Dubai
@@ -15,7 +23,5 @@ https://live.alilicloud.com/live/9591c371df44ea5757979a6827b612fb/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699db455fe274_5160/index.m3u8?expire=1772547797&sign=f6e4d351328814aa9bae81a816ce73cc
 #EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp Eintracht Frankfurt U19 vs Sporting CP U19 22:00 ngày 24/02 UEFA Youth League (Link 2)
 https://live.alilicloud.com/live/6daa4bb108100bfab5be0687d4c6fd1f/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp FC Flora Tallinn vs Riga FC 22:00 ngày 24/02 International Club Friendly
-https://live.alilicloud.com/live/9babb270267db9157a2d59cb826ea85f/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[21:15] Xem trực tiếp Nardi L. vs Lehecka J. 21:15 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699db0e2fe274_110198/index.m3u8?expire=1772546914&sign=f2f12bf900d464012f1cb2b592d1455b
