@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[19:25] Xem trực tiếp Xiaoxin YANG vs Miyu NAGASAKI 19:25 ngày 24/02 Table 2 - WTT Singapore Smash 2026
+https://cdn-hls.taoxanh.biz/live/699d7392fe273_18754/index.m3u8?expire=1772531218&sign=9eb05e67241c2828e1edacaf264a1173
 #EXTINF:-1 group-title="KayTee",[19:15] Xem trực tiếp Viettel FC vs Nam Dinh FC 19:15 ngày 24/02 Vietnam National Champion League
 https://cdn-hls.taoxanh.biz/live/699d8a5726634_5160/index.m3u8?expire=1772537047&sign=17909bf8b306f8540b18122ffc11c382
 #EXTINF:-1 group-title="KayTee",[19:15] Xem trực tiếp Viettel FC vs Nam Dinh FC 19:15 ngày 24/02 Vietnam National Champion League (Link 2)
@@ -13,8 +15,6 @@ https://cdn-hls.taoxanh.biz/live/699d8a1efe273_128756/index.m3u8?expire=17725369
 https://live.alilicloud.com/live/14e4921b641f31c19f6b310b7b0679e6/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[19:00] Xem trực tiếp Struff J-L. vs Bublik A. 19:00 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699d943826634_4439/index.m3u8?expire=1772539576&sign=32ef8776faaddcb31dec7cce32077a1f
-#EXTINF:-1 group-title="KayTee",[18:50] Xem trực tiếp Andre BERTELSMEIER vs Anders LIND 18:50 ngày 24/02 Table 2 - WTT Singapore Smash 2026
-https://cdn-hls.taoxanh.biz/live/699d7392fe273_18754/index.m3u8?expire=1772531218&sign=9eb05e67241c2828e1edacaf264a1173
 #EXTINF:-1 group-title="KayTee",[18:30] Xem trực tiếp Shevchenko A. vs K. Khachanov 18:30 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699d860426634_110198/index.m3u8?expire=1772535940&sign=599bc1f51302c99501b6335ab42eb13b
 #EXTINF:-1 group-title="KayTee",[18:30] Xem trực tiếp Thailand Futsal Women vs Indonesia Futsal Women 18:30 ngày 24/02 ASEAN Women's Futsal
