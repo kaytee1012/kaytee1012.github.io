@@ -3,19 +3,11 @@
 https://cdn-hls.taoxanh.biz/live/699dbd05fe274_73445/index.m3u8?expire=1772550021&sign=de72a4cfa1511807d2e5cb2200bdde71
 #EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)
 https://live.alilicloud.com/live/713ca2e931510f298010e6dcd01acb19/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Humbert U. vs Tsitsipas S. 22:30 ngày 24/02 ATP Dubai
-https://cdn-hls.taoxanh.biz/live/699db995fe274_4733/index.m3u8?expire=1772549141&sign=65bd5d29f0a74cdfb99e7b75526887b5
-#EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp Farense U23 vs Uniao Leiria U23 22:00 ngày 24/02 Portuguese U23 League
-https://cdn-hls.taoxanh.biz/live/699db502fe274_133160/index.m3u8?expire=1772547970&sign=b0d133063b92defaec18dc7f091cd0ca
-#EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp Farense U23 vs Uniao Leiria U23 22:00 ngày 24/02 Portuguese U23 League (Link 2)
-https://live.alilicloud.com/live/9591c371df44ea5757979a6827b612fb/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp Eintracht Frankfurt U19 vs Sporting CP U19 22:00 ngày 24/02 UEFA Youth League
 https://cdn-hls.taoxanh.biz/live/699db455fe274_5160/index.m3u8?expire=1772547797&sign=f6e4d351328814aa9bae81a816ce73cc
 #EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp Eintracht Frankfurt U19 vs Sporting CP U19 22:00 ngày 24/02 UEFA Youth League (Link 2)
 https://live.alilicloud.com/live/6daa4bb108100bfab5be0687d4c6fd1f/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[22:00] Xem trực tiếp FC Flora Tallinn vs Riga FC 22:00 ngày 24/02 International Club Friendly
+https://live.alilicloud.com/live/9babb270267db9157a2d59cb826ea85f/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[21:15] Xem trực tiếp Nardi L. vs Lehecka J. 21:15 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699db0e2fe274_110198/index.m3u8?expire=1772546914&sign=f2f12bf900d464012f1cb2b592d1455b
-#EXTINF:-1 group-title="KayTee",[21:00] Xem trực tiếp Odisha FC vs Inter Kashi 21:00 ngày 24/02 Indian Super League
-https://cdn-hls.taoxanh.biz/live/699da288fe274_68958/index.m3u8?expire=1772543240&sign=961512600094c39e90b5eab123823c5f
-#EXTINF:-1 group-title="KayTee",[21:00] Xem trực tiếp Odisha FC vs Inter Kashi 21:00 ngày 24/02 Indian Super League (Link 2)
-https://live.alilicloud.com/live/4884ab17d3e03356b62403d46f5cd32f/playlist.m3u8
