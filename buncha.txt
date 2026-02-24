@@ -1,16 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Huachipato vs Carabobo 05:00 ngày 25/02 CONMEBOL Copa Libertadores
+https://cdn-hls.taoxanh.biz/live/699e18f226634_74012/index.m3u8?expire=1772573554&sign=1c76dd5b5d578ef0ab39f8454e969edc
+#EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Huachipato vs Carabobo 05:00 ngày 25/02 CONMEBOL Copa Libertadores (Link 2)
+https://live.alilicloud.com/live/69d75e5e927007ea2158fca36059d611/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Martinique U20 vs US Virgin Islands U20 05:00 ngày 25/02 CONCACAF U20 Championship
+https://live.alilicloud.com/live/f299bb3e54b7eff9d4b942395e8b97d9/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[04:00] Xem trực tiếp Union Magdalena vs Tigres Zipaquira 04:00 ngày 25/02 Colombian Torneo BetPlay Dimayor
+https://live.alilicloud.com/live/a958eaad5153d0bd2b3e8a3005cce272/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[04:00] Xem trực tiếp st Vincent the Grenadine U20 vs Anguilla U20 04:00 ngày 25/02 CONCACAF U20 Championship
 https://live.alilicloud.com/live/80dbe9a6adb20fb738a3e7db572957e7/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[03:30] Xem trực tiếp Envigado FC vs Deportes Quindio 03:30 ngày 25/02 Colombian Torneo BetPlay Dimayor
 https://live.alilicloud.com/live/6206c9e9e9b46ad6e5dc1660f3fa9a9d/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Rio Ave U23 vs Vizela U23 03:00 ngày 25/02 Portuguese U23 League
-https://live.alilicloud.com/live/114fd2c40eb24fbb5b6b3af3b0391710/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Southampton vs Queens Park Rangers 03:00 ngày 25/02 English Football League Championship
-https://cdn-hls.taoxanh.biz/live/699df39726634_124958/index.m3u8?expire=1772563991&sign=3e5606d5b9637ba5309964fd120e218e
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp Southampton vs Queens Park Rangers 03:00 ngày 25/02 English Football League Championship (Link 2)
-https://live.alilicloud.com/live/c34317946e410be1f7823850b922e00b/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[03:00] Xem trực tiếp CA Platense vs Defensa Y Justicia 03:00 ngày 25/02 Argentine Division 1
-https://live.alilicloud.com/live/3c82c527f1a231b6eb1f20969d73d4e3/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Poland vs Team Philippines 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699dcc9826634_17480/index.m3u8?expire=1772554008&sign=4d88e5a298a8deb9f32b9145040bb407
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team South Korea vs Team USA - A 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
