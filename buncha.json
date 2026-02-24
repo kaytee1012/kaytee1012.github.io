@@ -350,73 +350,6 @@
           ]
         },
         {
-          "id": "kaytee-1bdea3c600b0",
-          "name": "Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:30 ngày 25/02 International Club Friendly",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "bottom-left",
-              "text": "KayTee",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "00:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "00:30",
-          "image": {
-            "url": "https://tt.8share.pro/assets/buncha_logo.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "src-79be419f7a",
-              "name": "Bún chả TV",
-              "contents": [
-                {
-                  "id": "ct-79be419f7a",
-                  "name": "Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:30 ngày 25/02 International Club Friendly",
-                  "streams": [
-                    {
-                      "id": "st-79be419f7a",
-                      "name": "KayTee",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79be419f7a",
-                          "name": "HLS",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/529ad4ecc68d208dca556fcba09ea1ac/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv.net/truc-tiep/hb-koge-w-vs-naestved-hg-w-0030-25-02-2026/601261946"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "kaytee-d6d4501e59e7",
           "name": "Xem trực tiếp Zaglebie Sosnowiec vs Sandecja Nowy Sacz 00:00 ngày 25/02 Poland Liga 2",
           "labels": [
@@ -551,8 +484,8 @@
           ]
         },
         {
-          "id": "kaytee-d4ce75847440",
-          "name": "Xem trực tiếp A. Rublev vs Royer V. 23:30 ngày 24/02 ATP Dubai",
+          "id": "kaytee-db2e4f852671",
+          "name": "Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:00 ngày 25/02 International Club Friendly",
           "labels": [
             {
               "position": "top-left",
@@ -568,12 +501,12 @@
             },
             {
               "position": "center",
-              "text": "23:30",
+              "text": "00:00",
               "color": "#4CAF50",
               "text_color": "#FFFFFF"
             }
           ],
-          "description": "23:30",
+          "description": "00:00",
           "image": {
             "url": "https://tt.8share.pro/assets/buncha_logo.png",
             "height": 480,
@@ -585,27 +518,27 @@
           "display": "text-below",
           "sources": [
             {
-              "id": "src-6cd6157a08",
+              "id": "src-0cdc0d089c",
               "name": "Bún chả TV",
               "contents": [
                 {
-                  "id": "ct-6cd6157a08",
-                  "name": "Xem trực tiếp A. Rublev vs Royer V. 23:30 ngày 24/02 ATP Dubai",
+                  "id": "ct-0cdc0d089c",
+                  "name": "Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:00 ngày 25/02 International Club Friendly",
                   "streams": [
                     {
-                      "id": "st-6cd6157a08",
+                      "id": "st-0cdc0d089c",
                       "name": "KayTee",
                       "stream_links": [
                         {
-                          "id": "lnk-6cd6157a08",
+                          "id": "lnk-0cdc0d089c",
                           "name": "HLS",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/699dc9fd26634_132584/index.m3u8?expire=1772553341&sign=8d514970e465f86ab6f059baa647105c",
+                          "url": "https://live.alilicloud.com/live/529ad4ecc68d208dca556fcba09ea1ac/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://bunchatv.net/truc-tiep/a-rublev-vs-royer-v-2330-24-02-2026/601275086"
+                              "value": "https://bunchatv.net/truc-tiep/hb-koge-w-vs-naestved-hg-w-0000-25-02-2026/601261946"
                             }
                           ]
                         }
