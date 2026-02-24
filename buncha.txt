@@ -9,7 +9,3 @@ https://live.alilicloud.com/live/4884ab17d3e03356b62403d46f5cd32f/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699d633afe272_6308/index.m3u8?expire=1772527034&sign=985a77a90398a3eb09e9ca1f43645820
 #EXTINF:-1 group-title="KayTee",[20:30] Xem trực tiếp Bhayangkara Presisi Indonesia FC vs Semen Padang 20:30 ngày 24/02 Indonesian Liga 1 (Link 2)
 https://live.alilicloud.com/live/4c158ed8313c0b4084d051a1dee74502/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League
-https://cdn-hls.taoxanh.biz/live/699d9a9afe274_88642/index.m3u8?expire=1772541210&sign=216afc930b6e9f04e9767caa90accb7e
-#EXTINF:-1 group-title="KayTee",[20:00] Xem trực tiếp Inter Milan U19 vs Real Betis U19 20:00 ngày 24/02 UEFA Youth League (Link 2)
-https://live.alilicloud.com/live/c5d1d2db77b7fc3ce56e080d09846866/playlist.m3u8
