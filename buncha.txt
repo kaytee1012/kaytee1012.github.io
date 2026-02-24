@@ -1,6 +1,10 @@
 #EXTM3U
 #EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp Zaglebie Sosnowiec vs Sandecja Nowy Sacz 00:00 ngày 25/02 Poland Liga 2
 https://live.alilicloud.com/live/fb09c11d0877ae2155b76f7581bbbf7d/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp Barbados U20 vs The Saint Martin U20 00:00 ngày 25/02 CONCACAF U20 Championship
+https://live.alilicloud.com/live/6ac5376953cebc9d7fe4714147ac3269/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:00 ngày 25/02 International Club Friendly
+https://live.alilicloud.com/live/529ad4ecc68d208dca556fcba09ea1ac/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp A. Rublev vs Royer V. 23:30 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699dc9fd26634_132584/index.m3u8?expire=1772553341&sign=8d514970e465f86ab6f059baa647105c
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Norway vs Team Singapore 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
@@ -11,7 +15,3 @@ https://cdn-hls.taoxanh.biz/live/699dcc9826634_17480/index.m3u8?expire=177255400
 https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
 #EXTINF:-1 group-title="KayTee",[23:00] Xem trực tiếp Rosenborg vs Start Kristiansand 23:00 ngày 24/02 International Club Friendly
 https://live.alilicloud.com/live/1f26c9abf00da874e6f8bddc4b440a27/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League
-https://cdn-hls.taoxanh.biz/live/699dbd05fe274_73445/index.m3u8?expire=1772550021&sign=de72a4cfa1511807d2e5cb2200bdde71
-#EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)
-https://live.alilicloud.com/live/713ca2e931510f298010e6dcd01acb19/playlist.m3u8
