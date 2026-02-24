@@ -3,6 +3,8 @@
 https://cdn-hls.taoxanh.biz/live/699d1b34fe272_4733/index.m3u8?expire=1772508596&sign=a89a7023c7676546ba051803d43182bc
 #EXTINF:-1 group-title="KayTee",[11:00] Link xem trực tiếp LIM Jonghoon / AN Jaehyun vs Martin ALLEGRO / A. RASSENFOSSE lúc 11:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://cdn-hls.taoxanh.biz/live/699d1be1fe272_110198/index.m3u8?expire=1772508769&sign=8bdab6a2add933202f05608039ebdd9f
+#EXTINF:-1 group-title="KayTee",[11:00] Link xem trực tiếp Bangalore Eagles vs Jawahar Union lúc 11:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
+https://live.alilicloud.com/live/4626c3f38d0e4482c1225af4a581597d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[11:00] Link xem trực tiếp Kyung Hee University vs Yonsei University lúc 11:00 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
 https://live.alilicloud.com/live/af9d0b49c56685a130abcaeaf4cf3568/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[09:30] Link xem trực tiếp Houston Rockets vs Utah Jazz lúc 09:30 ngày 24/02 vs TOP NHÀ CÁI UY TÍN Tất cả
