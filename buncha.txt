@@ -1,12 +1,6 @@
 #EXTM3U
 #EXTINF:-1 group-title="KayTee",[17:40] Xem trực tiếp Vladislav URSU vs Felix LEBRUN 17:40 ngày 24/02 Table 1 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699d719d26634_42127/index.m3u8?expire=1772530717&sign=bcb1a1b6f8154d3607a2b08fcd971634
-#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Zimbabwe Women vs Botswana (w) 17:00 ngày 24/02 COSAFA Women's Cup
-https://cdn-hls.taoxanh.biz/live/699d66b226634_44731/index.m3u8?expire=1772527922&sign=a3e89216c1e7dc38c6720583dd37bf96
-#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Zimbabwe Women vs Botswana (w) 17:00 ngày 24/02 COSAFA Women's Cup (Link 2)
-https://cdn-hls.taoxanh.biz/live/699d6e7526634_136712/index.m3u8?expire=1772529909&sign=b9a91b4f7a286d765ecde1018e9cc12d
-#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Zimbabwe Women vs Botswana (w) 17:00 ngày 24/02 COSAFA Women's Cup (Link 3)
-https://live.alilicloud.com/live/80071dd42de1376e127ad5cddbffbc14/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp KB Stars vs Samsung Blue Fangs 17:00 ngày 24/02 Volleyball League
 https://cdn-hls.taoxanh.biz/live/699d7024fe273_4439/index.m3u8?expire=1772530340&sign=3eb1f633495b9b654450e10b75005c6c
 #EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Hyundai E&C Hillstate W vs Expressway Co W 17:00 ngày 24/02 Volleyball League Women
@@ -17,6 +11,12 @@ https://cdn-hls.taoxanh.biz/live/699d71fc26634_133160/index.m3u8?expire=17725308
 https://cdn-hls.taoxanh.biz/live/699d7392fe273_18754/index.m3u8?expire=1772531218&sign=9eb05e67241c2828e1edacaf264a1173
 #EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Daniil Medvedev vs Shang J. 17:00 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699d713cfe273_133136/index.m3u8?expire=1772530620&sign=03bced36f699d358797f0664d6083b1c
+#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Zimbabwe Women vs Botswana (w) 17:00 ngày 24/02 COSAFA Women's Cup
+https://cdn-hls.taoxanh.biz/live/699d66b226634_44731/index.m3u8?expire=1772527922&sign=a3e89216c1e7dc38c6720583dd37bf96
+#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Zimbabwe Women vs Botswana (w) 17:00 ngày 24/02 COSAFA Women's Cup (Link 2)
+https://cdn-hls.taoxanh.biz/live/699d6e7526634_136712/index.m3u8?expire=1772529909&sign=b9a91b4f7a286d765ecde1018e9cc12d
+#EXTINF:-1 group-title="KayTee",[17:00] Xem trực tiếp Zimbabwe Women vs Botswana (w) 17:00 ngày 24/02 COSAFA Women's Cup (Link 3)
+https://live.alilicloud.com/live/80071dd42de1376e127ad5cddbffbc14/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[16:30] Xem trực tiếp Hantharwady United vs Yadanabon FC 16:30 ngày 24/02 Myanmar Professional League
 https://cdn-hls.taoxanh.biz/live/699d6e71fe272_95554/index.m3u8?expire=1772529905&sign=cf316d6a7ca39e7c937b75cc6be6ea6a
 #EXTINF:-1 group-title="KayTee",[16:30] Xem trực tiếp Hantharwady United vs Yadanabon FC 16:30 ngày 24/02 Myanmar Professional League (Link 2)
