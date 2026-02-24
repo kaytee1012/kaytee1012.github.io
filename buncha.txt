@@ -2,8 +2,6 @@
 #EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League
 https://cdn-hls.taoxanh.biz/live/699dbd05fe274_73445/index.m3u8?expire=1772550021&sign=de72a4cfa1511807d2e5cb2200bdde71
 #EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)
-https://cdn-hls.taoxanh.biz/live/699dbe7426634_136706/index.m3u8?expire=1772550388&sign=a2ccf4f528aacc66500407664ac36dcb
-#EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 3)
 https://live.alilicloud.com/live/713ca2e931510f298010e6dcd01acb19/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[22:30] Xem trực tiếp Humbert U. vs Tsitsipas S. 22:30 ngày 24/02 ATP Dubai
 https://cdn-hls.taoxanh.biz/live/699db995fe274_4733/index.m3u8?expire=1772549141&sign=65bd5d29f0a74cdfb99e7b75526887b5

@@ -82,75 +82,8 @@
           ]
         },
         {
-          "id": "kaytee-f8496c920a8f",
-          "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "bottom-left",
-              "text": "KayTee",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "22:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "22:30",
-          "image": {
-            "url": "https://tt.8share.pro/assets/buncha_logo.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "src-b5b17e946d",
-              "name": "Bún chả TV",
-              "contents": [
-                {
-                  "id": "ct-b5b17e946d",
-                  "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)",
-                  "streams": [
-                    {
-                      "id": "st-b5b17e946d",
-                      "name": "KayTee",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b5b17e946d",
-                          "name": "HLS",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/699dbe7426634_136706/index.m3u8?expire=1772550388&sign=a2ccf4f528aacc66500407664ac36dcb",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv.net/truc-tiep/yantra-gabrovo-vs-etar-2230-24-02-2026/601239716"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "kaytee-cdafc3d6f3cc",
-          "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 3)",
+          "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)",
           "labels": [
             {
               "position": "top-left",
@@ -188,7 +121,7 @@
               "contents": [
                 {
                   "id": "ct-3d06bb1570",
-                  "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 3)",
+                  "name": "Xem trực tiếp Yantra Gabrovo vs Etar 22:30 ngày 24/02 Bulgarian Second League (Link 2)",
                   "streams": [
                     {
                       "id": "st-3d06bb1570",
