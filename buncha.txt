@@ -1,4 +1,16 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Abha vs Al Anwar SA 01:45 ngày 25/02 Saudi Arabia Division 1
+https://live.alilicloud.com/live/55496a9446fd1fabbbc44aa16e1428ce/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Batin vs Al Wehda Mecca 01:45 ngày 25/02 Saudi Arabia Division 1
+https://live.alilicloud.com/live/3f26e7b9326899b4e3f08427198682b6/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al Bukayriyah vs Al-Jandal 01:45 ngày 25/02 Saudi Arabia Division 1
+https://live.alilicloud.com/live/4b5df5ac98aa05ce2805494ab0dca8d8/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Orubah vs Al-Jabalain 01:45 ngày 25/02 Saudi Arabia Division 1
+https://live.alilicloud.com/live/249bad105695e1e6bdc2296d844cf33a/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Raed SFC vs Jubail 01:45 ngày 25/02 Saudi Arabia Division 1
+https://live.alilicloud.com/live/676ae1941f82fdfb1ee04050970ed53d/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[01:45] Xem trực tiếp Al-Ahly vs Shabab Al Ordon 01:45 ngày 25/02 Jordan Premier League
+https://live.alilicloud.com/live/8444e21581861535ab1396c9f400fcd6/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[01:00] Xem trực tiếp Atletico Paranaense (Youth) vs Cuiaba (MT) (Youth) 01:00 ngày 25/02 Brazilian Youth League
 https://live.alilicloud.com/live/e65d08b765ab493ce442f3a0a72d2a88/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:45] Xem trực tiếp Atletico Madrid vs Club Brugge 00:45 ngày 25/02 UEFA Champions League
@@ -13,8 +25,6 @@ https://live.alilicloud.com/live/fadef48b10026cf32ac2361c117bc64c/playlist.m3u8
 https://live.alilicloud.com/live/fb09c11d0877ae2155b76f7581bbbf7d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp Barbados U20 vs The Saint Martin U20 00:00 ngày 25/02 CONCACAF U20 Championship
 https://live.alilicloud.com/live/6ac5376953cebc9d7fe4714147ac3269/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[00:00] Xem trực tiếp HB Koge (w) vs Naestved HG (w) 00:00 ngày 25/02 International Club Friendly
-https://live.alilicloud.com/live/529ad4ecc68d208dca556fcba09ea1ac/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team Poland vs Team Philippines 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699dcc9826634_17480/index.m3u8?expire=1772554008&sign=4d88e5a298a8deb9f32b9145040bb407
 #EXTINF:-1 group-title="KayTee",[23:30] Xem trực tiếp Team South Korea vs Team USA - A 23:30 ngày 24/02 Predator WPA Teams 10-Ball World Championship 2026
