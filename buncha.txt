@@ -35,8 +35,6 @@ https://cdn-hls.taoxanh.biz/live/699e3a5726634_70498/index.m3u8?expire=177258210
 https://live.alilicloud.com/live/b9ea6d357712bfbe01e73ef47c1e6080/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Fortaleza vs Maguary PE 07:30 ngày 25/02 Brazilian Cup
 https://live.alilicloud.com/live/51629d2d6759cbd6221aa3d6a8f78c85/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[07:15] Xem trực tiếp Boca Juniors vs Gimnasia Y Esgrima De Chivilcoy 07:15 ngày 25/02 Copa Argentina
-https://live.alilicloud.com/live/04a270bd19d58964b53a837f126be4af/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e378e26634_4733/index.m3u8?expire=1772581390&sign=77b79d4a7acb84e55c7ab84e04265185
 #EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA (Link 2)
