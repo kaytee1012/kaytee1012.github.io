@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="KayTee",[12:00] Xem trực tiếp Team Netherlands vs Team Việt Nam 12:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
-https://cdn-hls.taoxanh.biz/live/699e81ee26634_68958/index.m3u8?expire=1772600430&sign=f8f3129341ddbeadb16b9ec7b4323abd
 #EXTINF:-1 group-title="KayTee",[11:00] Xem trực tiếp Vanuatu United FC vs Solomon Kings FC 11:00 ngày 25/02 OFC P L
 https://live.alilicloud.com/live/09ce8fb382ba5afc529b471067e13a6d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[10:30] Xem trực tiếp Los Angeles Lakers vs Orlando Magic 10:30 ngày 25/02 NBA
