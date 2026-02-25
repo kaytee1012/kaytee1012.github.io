@@ -25,9 +25,5 @@ https://cdn-hls.taoxanh.biz/live/699e378e26634_4733/index.m3u8?expire=1772581390
 https://cdn-hls.taoxanh.biz/live/699e3a34fe275_4439/index.m3u8?expire=1772582068&sign=c042b981e7efd38a0c326193d1bb4071
 #EXTINF:-1 group-title="KayTee",[06:00] Xem trực tiếp St Andrew Lions vs Ellerton FC 06:00 ngày 25/02 Barbados Premier League
 https://live.alilicloud.com/live/a8808dd83588ac69158eaf3599b4be4c/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[05:45] Xem trực tiếp Central Cordoba SDE vs Talleres Cordoba 05:45 ngày 25/02 Argentine Division 1
-https://cdn-hls.taoxanh.biz/live/699e2553fe275_88642/index.m3u8?expire=1772576723&sign=1ad4be03a9d38eb55134e9b25764cdc9
-#EXTINF:-1 group-title="KayTee",[05:45] Xem trực tiếp Central Cordoba SDE vs Talleres Cordoba 05:45 ngày 25/02 Argentine Division 1 (Link 2)
-https://live.alilicloud.com/live/5a7a06e24da67775f2a04816edc4230d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Team Hà Lan vs Team Việt Nam 05:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
