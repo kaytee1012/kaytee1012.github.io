@@ -1,159 +1,23 @@
 {
-  "id": "buncha",
-  "url": "https://tt.8share.pro/buncha",
-  "name": "Bún Chả TV",
-  "color": "#1cb57a",
-  "description": "Bún Chả TV - Trang web phát sóng bóng đá trực tuyến miễn phí hàng đầu tại Việt Nam, mang đến trải nghiệm chất lượng cao với bình luận tiếng Việt sống động.",
-  "image": {
-    "url": "https://kaytee1012.github.io/buncha_logo.png"
-  },
+  "id": "related",
+  "name": "Nguồn lỗi, vui lòng chuyển sang nguồn dưới đây",
+  "display": "horizontal",
+  "grid_number": 1,
   "groups": [
     {
-      "id": "live",
-      "name": "🔴 Live",
-      "display": "horizontal",
-      "grid_number": 2,
-      "channels": [
-        {
-          "id": "kaytee-469210419370",
-          "name": "Xem trực tiếp Philippines Futsal Women vs Vietnam Futsal Women 13:30 ngày 25/02 ASEAN Women's Futsal",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "bottom-left",
-              "text": "KayTee",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "13:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "13:30",
-          "image": {
-            "url": "https://kaytee1012.github.io/buncha_logo.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "src-090d5613e2",
-              "name": "Bún chả TV",
-              "contents": [
-                {
-                  "id": "ct-090d5613e2",
-                  "name": "Xem trực tiếp Philippines Futsal Women vs Vietnam Futsal Women 13:30 ngày 25/02 ASEAN Women's Futsal",
-                  "streams": [
-                    {
-                      "id": "st-090d5613e2",
-                      "name": "KayTee",
-                      "stream_links": [
-                        {
-                          "id": "lnk-090d5613e2",
-                          "name": "HLS",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn-hls.taoxanh.biz/live/699e8506fe275_72787/index.m3u8?expire=1772601222&sign=cbcfa5c68fd1daf634e5d4eff9346cb2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv.net/truc-tiep/philippines-futsal-women-vs-vietnam-futsal-women-1330-25-02-2026/601275284"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "kaytee-f1a1af6637c4",
-          "name": "Xem trực tiếp Meisatla FC vs Lungleng FC 12:30 ngày 25/02 Indian MFA Super Cup",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "bottom-left",
-              "text": "KayTee",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "12:30",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "12:30",
-          "image": {
-            "url": "https://kaytee1012.github.io/buncha_logo.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "src-ca8b4b76fb",
-              "name": "Bún chả TV",
-              "contents": [
-                {
-                  "id": "ct-ca8b4b76fb",
-                  "name": "Xem trực tiếp Meisatla FC vs Lungleng FC 12:30 ngày 25/02 Indian MFA Super Cup",
-                  "streams": [
-                    {
-                      "id": "st-ca8b4b76fb",
-                      "name": "KayTee",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ca8b4b76fb",
-                          "name": "HLS",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/3bf9404d33785c9479c098bcc2611a6e/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv.net/truc-tiep/meisatla-fc-vs-lungleng-fc-1230-25-02-2026/601275440"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
+      "id": "buncha_alt",
+      "name": "Bún Chả TV",
+      "display": "text-below",
+      "image": {
+        "url": "https://kaytee1012.github.io/buncha_logo.png",
+        "height": 100,
+        "width": 100,
+        "display": "cover"
+      },
+      "remote_data": {
+        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fbit.ly%2Fbuncha2&type=provider",
+        "external": true
+      }
     }
-  ],
-  "option": {
-    "save_history": false,
-    "save_search_history": false,
-    "save_wishlist": false
-  }
+  ]
 }
