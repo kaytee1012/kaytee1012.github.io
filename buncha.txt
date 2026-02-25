@@ -9,10 +9,16 @@ https://cdn-hls.taoxanh.biz/live/699e35b526634_88642/index.m3u8?expire=177258091
 https://live.alilicloud.com/live/c22682dda5960c45a90a8811fa10d541/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nicaragua U20 vs Aruba U20 08:00 ngày 25/02 CONCACAF U20 Championship
 https://live.alilicloud.com/live/5b152bd243150e6608699cd3e242c934/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Wotton FC vs Pride of Gall Hill FC 08:00 ngày 25/02 Barbados Premier League
+https://live.alilicloud.com/live/a396968db6eee799065100a3964e38ce/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp New Orleans Pelicans vs Golden State Warriors 08:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e43bffe275_42127/index.m3u8?expire=1772584511&sign=1f38fa3055b70f9e93559a2200a1a581
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Team South Korea vs Team Chinese Taipe 08:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699e49c0fe275_17480/index.m3u8?expire=1772586048&sign=6124d7a9ab909f790c493ad0c9d4d32b
+#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA
+https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=1772583447&sign=2c1b205efeaf9e02adae68bee05bbca7
+#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA (Link 2)
+https://cdn-hls.taoxanh.biz/live/699e4111fe275_110198/index.m3u8?expire=1772583825&sign=3e3b51bd5e0c1c597e247731576535fa
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Belgrano vs Atletico Tucuman 07:30 ngày 25/02 Argentine Division 1
 https://cdn-hls.taoxanh.biz/live/699e3dcafe275_68958/index.m3u8?expire=1772582986&sign=dd9217ae71a7af05d8342569bf84838f
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Belgrano vs Atletico Tucuman 07:30 ngày 25/02 Argentine Division 1 (Link 2)
@@ -27,10 +33,6 @@ https://cdn-hls.taoxanh.biz/live/699e3a5726634_70498/index.m3u8?expire=177258210
 https://live.alilicloud.com/live/b9ea6d357712bfbe01e73ef47c1e6080/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Fortaleza vs Maguary PE 07:30 ngày 25/02 Brazilian Cup
 https://live.alilicloud.com/live/51629d2d6759cbd6221aa3d6a8f78c85/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA
-https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=1772583447&sign=2c1b205efeaf9e02adae68bee05bbca7
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA (Link 2)
-https://cdn-hls.taoxanh.biz/live/699e4111fe275_110198/index.m3u8?expire=1772583825&sign=3e3b51bd5e0c1c597e247731576535fa
 #EXTINF:-1 group-title="KayTee",[07:15] Xem trực tiếp Boca Juniors vs Gimnasia Y Esgrima De Chivilcoy 07:15 ngày 25/02 Copa Argentina
 https://live.alilicloud.com/live/04a270bd19d58964b53a837f126be4af/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA
