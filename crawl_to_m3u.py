@@ -230,7 +230,7 @@ def main():
                 "description": info["time"] if info.get("time") else "",
                 "image": {
                     # Không có poster trận => dùng logo buncha (đỡ trống)
-                    "url": "https://tt.8share.pro/assets/buncha_logo.png",
+                    "url": "https://kaytee1012.github.io/buncha_logo.png",
                     "height": 480,
                     "width": 640,
                     "display": "cover",
@@ -290,7 +290,7 @@ def main():
         "color": "#1cb57a",
         "description": "Bún Chả TV - Trang web phát sóng bóng đá trực tuyến miễn phí hàng đầu tại Việt Nam, mang đến trải nghiệm chất lượng cao với bình luận tiếng Việt sống động.",
         "image": {
-            "url": "https://tt.8share.pro/assets/buncha_logo.png"
+            "url": "https://kaytee1012.github.io/buncha_logo.png"
         },
         "groups": [
             {
