@@ -1,20 +1,12 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Portland Trail Blazers vs Minnesota Timberwolves 10:00 ngày 25/02 NBA
+https://cdn-hls.taoxanh.biz/live/699e614126634_4733/index.m3u8?expire=1772592065&sign=fa72b0caa0ab280a62ec424caa59c0f2
 #EXTINF:-1 group-title="KayTee",[09:00] Xem trực tiếp Phoenix Suns vs Boston Celtics 09:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e550426634_133172/index.m3u8?expire=1772588932&sign=72d4fc64f74661b92f134082f8b800c0
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp New Orleans Pelicans vs Golden State Warriors 08:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e43bffe275_42127/index.m3u8?expire=1772584511&sign=1f38fa3055b70f9e93559a2200a1a581
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Team South Korea vs Team Chinese Taipe 08:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699e49c0fe275_17480/index.m3u8?expire=1772586048&sign=6124d7a9ab909f790c493ad0c9d4d32b
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nashville vs Atletico Ottawa 08:00 ngày 25/02 CNCF CHL
-https://cdn-hls.taoxanh.biz/live/699e448bfe275_132584/index.m3u8?expire=1772584715&sign=82e0352b9a4dacccaba59063f4026d46
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nashville vs Atletico Ottawa 08:00 ngày 25/02 CNCF CHL (Link 2)
-https://live.alilicloud.com/live/c473f24fed1b28af56fe3e23f0a0dd55/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Gimnasia y Esgrima de Mendoza vs CA Independiente 08:00 ngày 25/02 Argentine Division 1
-https://cdn-hls.taoxanh.biz/live/699e35b526634_88642/index.m3u8?expire=1772580917&sign=f8a2cdebde1e2aa874ca89806ddc9227
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Gimnasia y Esgrima de Mendoza vs CA Independiente 08:00 ngày 25/02 Argentine Division 1 (Link 2)
-https://live.alilicloud.com/live/c22682dda5960c45a90a8811fa10d541/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nicaragua U20 vs Aruba U20 08:00 ngày 25/02 CONCACAF U20 Championship
-https://live.alilicloud.com/live/5b152bd243150e6608699cd3e242c934/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=1772583447&sign=2c1b205efeaf9e02adae68bee05bbca7
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA (Link 2)
