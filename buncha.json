@@ -1,61 +1,31 @@
 {
-  "id": "hoiquan",
-  "url": "http://tt.8share.pro/hoiquan",
-  "name": "Hội Quán TV",
+  "id": "bunchatv",
+  "url": "https://bit.ly/buncha2",
+  "name": "Bún Chả TV",
   "color": "#2563EB",
-  "description": "HoiQuanTV Thể thao trực tiếp, xem thể thao online link HoiQuan TV nhanh nhất",
+  "description": "Bún Chả TV Thể thao trực tiếp, xem thể thao online link HoiQuan TV nhanh nhất",
   "image": {
-    "url": "http://tt.8share.pro/assets/hoiquan_logo.png"
+    "url": "https://kaytee1012.github.io/buncha_logo.png"
   },
   "groups": [
     {
       "id": "related",
-      "name": "Chán ư, vậy xem cái này cho vui ^^",
+      "name": "Nguồn lỗi rồi, chuyển qua các nguồn sau nhé",
       "display": "horizontal",
       "grid_number": 1,
       "groups": [
         {
-          "id": "thapcamtv",
-          "name": "ThapcamTV",
+          "id": "buncha",
+          "name": "Bún Chả TV",
           "display": "text-below",
           "image": {
-            "url": "https://thapcamiptv.com/10cam-logo-app-light.jpg",
+            "url": "https://kaytee1012.github.io/buncha_logo.png",
             "height": 100,
             "width": 100,
             "display": "cover"
           },
           "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Ftctv.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "vebotv",
-          "name": "VeboTV",
-          "display": "text-below",
-          "image": {
-            "url": "https://vebo.thethaoiptv.com/vebo-icon.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvbtv.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "cakhiatv",
-          "name": "CaKhiaTV",
-          "display": "text-below",
-          "image": {
-            "url": "https://cktv.pro/logo-cakhia.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fcktv.pro&type=provider",
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fbit.ly%2Fbuncha2&type=provider",
             "external": true
           }
         },
@@ -70,7 +40,7 @@
             "display": "cover"
           },
           "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fop.hdpe.pro&type=provider",
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fmedia.hth4nh.eu.org/ophim&type=provider",
             "external": true
           }
         },
@@ -85,7 +55,7 @@
             "display": "cover"
           },
           "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fkk.hdpe.pro&type=provider",
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fmedia.hth4nh.eu.org/kkphim&type=provider",
             "external": true
           }
         },
@@ -100,82 +70,7 @@
             "display": "cover"
           },
           "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnc.hdpe.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "truyenhinh",
-          "name": "FPT",
-          "display": "text-below",
-          "image": {
-            "url": "https://iptv.nhadai.org/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fiptv.nhadai.org%2Fv1&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "vtvgo",
-          "name": "VTVGO",
-          "display": "text-below",
-          "image": {
-            "url": "https://web-cache-aws.vtvdigital.vn/assets/images/logo-app.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvtvgo.4share.me%2Fv1&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "hangtruyen",
-          "name": "Hang Truyện",
-          "display": "text-below",
-          "image": {
-            "url": "https://ht.khotruyen.link/images/hangtruyen.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fht.khotruyen.link&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "otruyen",
-          "name": "Ổ Truyện",
-          "display": "text-below",
-          "image": {
-            "url": "https://otruyen-iptv.khotruyen.link/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fotruyen-iptv.khotruyen.link&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "newtruyenhot",
-          "name": "NewTruyenHot",
-          "display": "text-below",
-          "image": {
-            "url": "https://newtruyenhot.4share.me/static/img/logo-newtruyenhot.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnewtruyenhot.4share.me&type=provider",
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fmedia.hth4nh.eu.org/nguonc&type=provider",
             "external": true
           }
         }
