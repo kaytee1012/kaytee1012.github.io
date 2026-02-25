@@ -15,6 +15,73 @@
       "grid_number": 2,
       "channels": [
         {
+          "id": "kaytee-411bc722c300",
+          "name": "Xem trực tiếp Miwa HARIMOTO / Hina HAYATA vs LAI Chloe / LOY M. Y. 11:00 ngày 25/02 Table 1 - WTT Singapore Smash 2026",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "11:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "11:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-1535819a6e",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-1535819a6e",
+                  "name": "Xem trực tiếp Miwa HARIMOTO / Hina HAYATA vs LAI Chloe / LOY M. Y. 11:00 ngày 25/02 Table 1 - WTT Singapore Smash 2026",
+                  "streams": [
+                    {
+                      "id": "st-1535819a6e",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1535819a6e",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699e66f626634_19013/index.m3u8?expire=1772593526&sign=1050130124c9a7f5e3115642df9f60f2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/miwa-harimoto--hina-hayata-vs-lai-chloe--loy-m-y-1100-25-02-2026/601277231"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "kaytee-ce7cc59b3f97",
           "name": "Xem trực tiếp Los Angeles Lakers vs Orlando Magic 10:30 ngày 25/02 NBA",
           "labels": [
