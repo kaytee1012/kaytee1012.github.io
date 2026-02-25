@@ -1,4 +1,6 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[11:00] Xem trực tiếp Vanuatu United FC vs Solomon Kings FC 11:00 ngày 25/02 OFC P L
+https://live.alilicloud.com/live/09ce8fb382ba5afc529b471067e13a6d/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[11:00] Xem trực tiếp Miwa HARIMOTO / Hina HAYATA vs LAI Chloe / LOY M. Y. 11:00 ngày 25/02 Table 1 - WTT Singapore Smash 2026
 https://cdn-hls.taoxanh.biz/live/699e66f626634_19013/index.m3u8?expire=1772593526&sign=1050130124c9a7f5e3115642df9f60f2
 #EXTINF:-1 group-title="KayTee",[10:30] Xem trực tiếp Los Angeles Lakers vs Orlando Magic 10:30 ngày 25/02 NBA
@@ -13,7 +15,5 @@ https://cdn-hls.taoxanh.biz/live/699e6963fe275_110198/index.m3u8?expire=17725941
 https://cdn-hls.taoxanh.biz/live/699e5d01fe275_68958/index.m3u8?expire=1772590977&sign=a2c412de37e1f1cd6ef522286e90bf85
 #EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Los Angeles FC vs Real Espana 10:00 ngày 25/02 CNCF CHL (Link 2)
 https://live.alilicloud.com/live/2b955ec7acaefb1008ab33b7c8e41e01/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[09:00] Xem trực tiếp Phoenix Suns vs Boston Celtics 09:00 ngày 25/02 NBA
-https://cdn-hls.taoxanh.biz/live/699e550426634_133172/index.m3u8?expire=1772588932&sign=72d4fc64f74661b92f134082f8b800c0
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Team South Korea vs Team Chinese Taipe 08:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699e49c0fe275_17480/index.m3u8?expire=1772586048&sign=6124d7a9ab909f790c493ad0c9d4d32b
