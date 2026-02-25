@@ -1,8 +1,14 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nashville vs Atletico Ottawa 08:00 ngày 25/02 CNCF CHL
+https://cdn-hls.taoxanh.biz/live/699e448bfe275_132584/index.m3u8?expire=1772584715&sign=82e0352b9a4dacccaba59063f4026d46
+#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nashville vs Atletico Ottawa 08:00 ngày 25/02 CNCF CHL (Link 2)
+https://live.alilicloud.com/live/c473f24fed1b28af56fe3e23f0a0dd55/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Gimnasia y Esgrima de Mendoza vs CA Independiente 08:00 ngày 25/02 Argentine Division 1
 https://cdn-hls.taoxanh.biz/live/699e35b526634_88642/index.m3u8?expire=1772580917&sign=f8a2cdebde1e2aa874ca89806ddc9227
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Gimnasia y Esgrima de Mendoza vs CA Independiente 08:00 ngày 25/02 Argentine Division 1 (Link 2)
 https://live.alilicloud.com/live/c22682dda5960c45a90a8811fa10d541/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nicaragua U20 vs Aruba U20 08:00 ngày 25/02 CONCACAF U20 Championship
+https://live.alilicloud.com/live/5b152bd243150e6608699cd3e242c934/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp New Orleans Pelicans vs Golden State Warriors 08:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e43bffe275_42127/index.m3u8?expire=1772584511&sign=1f38fa3055b70f9e93559a2200a1a581
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Team South Korea vs Team Chinese Taipe 08:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
@@ -19,6 +25,8 @@ https://live.alilicloud.com/live/5fc5469928af742286e761ba18603f4e/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699e3a5726634_70498/index.m3u8?expire=1772582103&sign=e9c4d11a6e6c7c783e26a54517e45b12
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Sporting Cristal vs Club Sportivo 2 de Mayo 07:30 ngày 25/02 CONMEBOL Copa Libertadores (Link 2)
 https://live.alilicloud.com/live/b9ea6d357712bfbe01e73ef47c1e6080/playlist.m3u8
+#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Fortaleza vs Maguary PE 07:30 ngày 25/02 Brazilian Cup
+https://live.alilicloud.com/live/51629d2d6759cbd6221aa3d6a8f78c85/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=1772583447&sign=2c1b205efeaf9e02adae68bee05bbca7
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA (Link 2)
