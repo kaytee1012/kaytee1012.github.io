@@ -7,8 +7,6 @@ https://cdn-hls.taoxanh.biz/live/699e43bffe275_42127/index.m3u8?expire=177258451
 https://cdn-hls.taoxanh.biz/live/699e49c0fe275_17480/index.m3u8?expire=1772586048&sign=6124d7a9ab909f790c493ad0c9d4d32b
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nashville vs Atletico Ottawa 08:00 ngày 25/02 CNCF CHL
 https://cdn-hls.taoxanh.biz/live/699e448bfe275_132584/index.m3u8?expire=1772584715&sign=82e0352b9a4dacccaba59063f4026d46
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Nashville vs Atletico Ottawa 08:00 ngày 25/02 CNCF CHL (Link 2)
-https://live.alilicloud.com/live/c473f24fed1b28af56fe3e23f0a0dd55/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Gimnasia y Esgrima de Mendoza vs CA Independiente 08:00 ngày 25/02 Argentine Division 1
 https://cdn-hls.taoxanh.biz/live/699e35b526634_88642/index.m3u8?expire=1772580917&sign=f8a2cdebde1e2aa874ca89806ddc9227
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Gimnasia y Esgrima de Mendoza vs CA Independiente 08:00 ngày 25/02 Argentine Division 1 (Link 2)
@@ -21,19 +19,5 @@ https://live.alilicloud.com/live/a396968db6eee799065100a3964e38ce/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=1772583447&sign=2c1b205efeaf9e02adae68bee05bbca7
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA (Link 2)
 https://cdn-hls.taoxanh.biz/live/699e4111fe275_110198/index.m3u8?expire=1772583825&sign=3e3b51bd5e0c1c597e247731576535fa
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Dep.Independiente Medellin vs Liverpool URU 07:30 ngày 25/02 CONMEBOL Copa Libertadores
-https://cdn-hls.taoxanh.biz/live/699e3bc326634_74012/index.m3u8?expire=1772582467&sign=471975ae701cd0521409ac6a186621df
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Dep.Independiente Medellin vs Liverpool URU 07:30 ngày 25/02 CONMEBOL Copa Libertadores (Link 2)
-https://live.alilicloud.com/live/5fc5469928af742286e761ba18603f4e/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Sporting Cristal vs Club Sportivo 2 de Mayo 07:30 ngày 25/02 CONMEBOL Copa Libertadores
-https://cdn-hls.taoxanh.biz/live/699e3a5726634_70498/index.m3u8?expire=1772582103&sign=e9c4d11a6e6c7c783e26a54517e45b12
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Sporting Cristal vs Club Sportivo 2 de Mayo 07:30 ngày 25/02 CONMEBOL Copa Libertadores (Link 2)
-https://live.alilicloud.com/live/b9ea6d357712bfbe01e73ef47c1e6080/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Fortaleza vs Maguary PE 07:30 ngày 25/02 Brazilian Cup
-https://live.alilicloud.com/live/51629d2d6759cbd6221aa3d6a8f78c85/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA
-https://cdn-hls.taoxanh.biz/live/699e378e26634_4733/index.m3u8?expire=1772581390&sign=77b79d4a7acb84e55c7ab84e04265185
-#EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA (Link 2)
-https://cdn-hls.taoxanh.biz/live/699e3a34fe275_4439/index.m3u8?expire=1772582068&sign=c042b981e7efd38a0c326193d1bb4071
 #EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Team Hà Lan vs Team Việt Nam 05:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699dce3f26634_103/index.m3u8?expire=1772554431&sign=f30004a547e291b00390d8edeb3faafa
