@@ -1,173 +1,547 @@
 {
-  "id": "related",
-  "name": "Nguồn lỗi, vui lòng chuyển qua nguồn dưới",
-  "display": "horizontal",
-  "grid_number": 1,
+  "id": "hoiquan",
+  "url": "http://tt.8share.pro/hoiquan",
+  "name": "Hội Quán TV",
+  "color": "#2563EB",
+  "description": "HoiQuanTV Thể thao trực tiếp, xem thể thao online link HoiQuan TV nhanh nhất",
+  "image": {
+    "url": "http://tt.8share.pro/assets/hoiquan_logo.png"
+  },
   "groups": [
     {
-      "id": "bunchatv",
-      "name": "Bún Chả TV",
-      "display": "text-below",
-      "image": {
-        "url": "https://kaytee1012.github.io/buncha_logo.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Ftctv.pro&type=provider",
-        "external": true
-      }
+      "id": "all-matches",
+      "name": "Các trận đấu",
+      "display": "vertical",
+      "channels": [
+        {
+          "id": "hoiquan-4714",
+          "name": "Gamba Osaka vs Pohang Steelers",
+          "subtitle": "AFC Cup",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN CÁO",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-98b228b697dec7de5419f1efad95acde.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4714",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4714",
+                  "name": "Gamba Osaka vs Pohang Steelers",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4714",
+                      "name": "BLV PHAN CÁO",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4714"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4717",
+          "name": "Qarabag vs Newcastle",
+          "subtitle": "UEFA Champions League",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN TÔM",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-3beaf36de95cd7663582414da36a8232.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4717",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4717",
+                  "name": "Qarabag vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4717",
+                      "name": "BLV PHAN TÔM",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4717"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4718",
+          "name": "AC Milan vs Como",
+          "subtitle": "Serie A",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN CA",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-6fc324caa6c7ae479574f20a5fd86268.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4718",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4718",
+                  "name": "AC Milan vs Como",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4718",
+                      "name": "BLV PHAN CA",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4718"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4719",
+          "name": "Wolves vs Arsenal",
+          "subtitle": "Premier League",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN TÔM",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-cd83744e651737ebb956597b381495fc.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4719",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4719",
+                  "name": "Wolves vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4719",
+                      "name": "BLV PHAN TÔM",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4719"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4720",
+          "name": "Bodo/Glimt vs Inter",
+          "subtitle": "UEFA Champions League",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN CÁO",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-381580a14520def9af73de9515538c69.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4720",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4720",
+                  "name": "Bodo/Glimt vs Inter",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4720",
+                      "name": "BLV PHAN CÁO",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4720"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4721",
+          "name": "Olympiakos Piraeus vs Bayer Leverkusen",
+          "subtitle": "UEFA Champions League",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN HÀ LINH",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-c2cba8e589ffcbe017857abe4ff5b9a0.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4721",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4721",
+                  "name": "Olympiakos Piraeus vs Bayer Leverkusen",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4721",
+                      "name": "BLV PHAN HÀ LINH",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4721"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4722",
+          "name": "CS Cartagines vs Vancouver Whitecaps",
+          "subtitle": "CONCACAF Champions League",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN CA",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-7c9a4c5cc4b54682e90d583b47608c1f.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4722",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4722",
+                  "name": "CS Cartagines vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4722",
+                      "name": "BLV PHAN CA",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4722"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-4723",
+          "name": "Macarthur vs Bangkok United",
+          "subtitle": "AFC Cup",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN HÀ LINH",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "http://tt.8share.pro/images/cache/match-72e6a92090ee2718ed957d3c9a54228c.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-4723",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-4723",
+                  "name": "Macarthur vs Bangkok United",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-4723",
+                      "name": "BLV PHAN HÀ LINH",
+                      "remote_data": {
+                        "url": "http://tt.8share.pro/hoiquan/stream/4723"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "vebotv",
-      "name": "VeboTV",
-      "display": "text-below",
-      "image": {
-        "url": "https://vebo.thethaoiptv.com/vebo-icon.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvbtv.pro&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "cakhiatv",
-      "name": "CaKhiaTV",
-      "display": "text-below",
-      "image": {
-        "url": "https://cktv.pro/logo-cakhia.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fcktv.pro&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "ophim",
-      "name": "Ophim",
-      "display": "text-below",
-      "image": {
-        "url": "https://op.hdpe.pro/images/logo.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fop.hdpe.pro&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "kkphim",
-      "name": "Kkphim",
-      "display": "text-below",
-      "image": {
-        "url": "https://kk.hdpe.pro/images/logo.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fkk.hdpe.pro&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "nguonc",
-      "name": "NguonC",
-      "display": "text-below",
-      "image": {
-        "url": "https://nc.hdpe.pro/images/logo.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnc.hdpe.pro&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "truyenhinh",
-      "name": "FPT",
-      "display": "text-below",
-      "image": {
-        "url": "https://iptv.nhadai.org/logo.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fiptv.nhadai.org%2Fv1&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "vtvgo",
-      "name": "VTVGO",
-      "display": "text-below",
-      "image": {
-        "url": "https://web-cache-aws.vtvdigital.vn/assets/images/logo-app.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvtvgo.4share.me%2Fv1&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "hangtruyen",
-      "name": "Hang Truyện",
-      "display": "text-below",
-      "image": {
-        "url": "https://ht.khotruyen.link/images/hangtruyen.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fht.khotruyen.link&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "otruyen",
-      "name": "Ổ Truyện",
-      "display": "text-below",
-      "image": {
-        "url": "https://otruyen-iptv.khotruyen.link/logo.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fotruyen-iptv.khotruyen.link&type=provider",
-        "external": true
-      }
-    },
-    {
-      "id": "newtruyenhot",
-      "name": "NewTruyenHot",
-      "display": "text-below",
-      "image": {
-        "url": "https://newtruyenhot.4share.me/static/img/logo-newtruyenhot.png",
-        "height": 100,
-        "width": 100,
-        "display": "cover"
-      },
-      "remote_data": {
-        "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnewtruyenhot.4share.me&type=provider",
-        "external": true
-      }
+      "id": "related",
+      "name": "Chán ư, vậy xem cái này cho vui ^^",
+      "display": "horizontal",
+      "grid_number": 1,
+      "groups": [
+        {
+          "id": "thapcamtv",
+          "name": "ThapcamTV",
+          "display": "text-below",
+          "image": {
+            "url": "https://thapcamiptv.com/10cam-logo-app-light.jpg",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Ftctv.pro\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "vebotv",
+          "name": "VeboTV",
+          "display": "text-below",
+          "image": {
+            "url": "https://vebo.thethaoiptv.com/vebo-icon.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvbtv.pro\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "cakhiatv",
+          "name": "CaKhiaTV",
+          "display": "text-below",
+          "image": {
+            "url": "https://cktv.pro/logo-cakhia.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fcktv.pro\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "ophim",
+          "name": "Ophim",
+          "display": "text-below",
+          "image": {
+            "url": "https://op.hdpe.pro/images/logo.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fop.hdpe.pro\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "kkphim",
+          "name": "Kkphim",
+          "display": "text-below",
+          "image": {
+            "url": "https://kk.hdpe.pro/images/logo.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fkk.hdpe.pro\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "nguonc",
+          "name": "NguonC",
+          "display": "text-below",
+          "image": {
+            "url": "https://nc.hdpe.pro/images/logo.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnc.hdpe.pro\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "truyenhinh",
+          "name": "FPT",
+          "display": "text-below",
+          "image": {
+            "url": "https://iptv.nhadai.org/logo.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fiptv.nhadai.org%2Fv1\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "vtvgo",
+          "name": "VTVGO",
+          "display": "text-below",
+          "image": {
+            "url": "https://web-cache-aws.vtvdigital.vn/assets/images/logo-app.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvtvgo.4share.me%2Fv1\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "hangtruyen",
+          "name": "Hang Truyện",
+          "display": "text-below",
+          "image": {
+            "url": "https://ht.khotruyen.link/images/hangtruyen.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fht.khotruyen.link\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "otruyen",
+          "name": "Ổ Truyện",
+          "display": "text-below",
+          "image": {
+            "url": "https://otruyen-iptv.khotruyen.link/logo.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fotruyen-iptv.khotruyen.link\u0026type=provider",
+            "external": true
+          }
+        },
+        {
+          "id": "newtruyenhot",
+          "name": "NewTruyenHot",
+          "display": "text-below",
+          "image": {
+            "url": "https://newtruyenhot.4share.me/static/img/logo-newtruyenhot.png",
+            "height": 100,
+            "width": 100,
+            "display": "cover"
+          },
+          "remote_data": {
+            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnewtruyenhot.4share.me\u0026type=provider",
+            "external": true
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "notice": {
+    "id": "notice",
+    "link": "https://t.me/xemgicungshare",
+    "icon": "http://tt.8share.pro/assets/telegram_sp.png",
+    "closeable": true
+  },
+  "option": {
+    "save_history": false,
+    "save_search_history": false,
+    "save_wishlist": false
+  }
 }
