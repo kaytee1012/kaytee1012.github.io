@@ -21,10 +21,6 @@ https://live.alilicloud.com/live/a396968db6eee799065100a3964e38ce/playlist.m3u8
 https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=1772583447&sign=2c1b205efeaf9e02adae68bee05bbca7
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Cleveland Cavaliers vs New York Knicks 07:30 ngày 25/02 NBA (Link 2)
 https://cdn-hls.taoxanh.biz/live/699e4111fe275_110198/index.m3u8?expire=1772583825&sign=3e3b51bd5e0c1c597e247731576535fa
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Belgrano vs Atletico Tucuman 07:30 ngày 25/02 Argentine Division 1
-https://cdn-hls.taoxanh.biz/live/699e3dcafe275_68958/index.m3u8?expire=1772582986&sign=dd9217ae71a7af05d8342569bf84838f
-#EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Belgrano vs Atletico Tucuman 07:30 ngày 25/02 Argentine Division 1 (Link 2)
-https://live.alilicloud.com/live/a2737632a0329c929e7fbcb3f9d412a2/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Dep.Independiente Medellin vs Liverpool URU 07:30 ngày 25/02 CONMEBOL Copa Libertadores
 https://cdn-hls.taoxanh.biz/live/699e3bc326634_74012/index.m3u8?expire=1772582467&sign=471975ae701cd0521409ac6a186621df
 #EXTINF:-1 group-title="KayTee",[07:30] Xem trực tiếp Dep.Independiente Medellin vs Liverpool URU 07:30 ngày 25/02 CONMEBOL Copa Libertadores (Link 2)
