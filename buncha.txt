@@ -1,4 +1,8 @@
 #EXTM3U
+#EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Los Angeles FC vs Real Espana 10:00 ngày 25/02 CNCF CHL
+https://cdn-hls.taoxanh.biz/live/699e5d01fe275_68958/index.m3u8?expire=1772590977&sign=a2c412de37e1f1cd6ef522286e90bf85
+#EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Los Angeles FC vs Real Espana 10:00 ngày 25/02 CNCF CHL (Link 2)
+https://live.alilicloud.com/live/2b955ec7acaefb1008ab33b7c8e41e01/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Portland Trail Blazers vs Minnesota Timberwolves 10:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e614126634_4733/index.m3u8?expire=1772592065&sign=fa72b0caa0ab280a62ec424caa59c0f2
 #EXTINF:-1 group-title="KayTee",[09:00] Xem trực tiếp Phoenix Suns vs Boston Celtics 09:00 ngày 25/02 NBA
