@@ -7,9 +7,5 @@ https://cdn-hls.taoxanh.biz/live/699e5e0626634_4439/index.m3u8?expire=1772591238
 https://cdn-hls.taoxanh.biz/live/699e614126634_4733/index.m3u8?expire=1772592065&sign=fa72b0caa0ab280a62ec424caa59c0f2
 #EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Portland Trail Blazers vs Minnesota Timberwolves 10:00 ngày 25/02 NBA (Link 2)
 https://cdn-hls.taoxanh.biz/live/699e6963fe275_110198/index.m3u8?expire=1772594147&sign=b12bacb52b3dcec8e5058303bdc4b081
-#EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Los Angeles FC vs Real Espana 10:00 ngày 25/02 CNCF CHL
-https://cdn-hls.taoxanh.biz/live/699e5d01fe275_68958/index.m3u8?expire=1772590977&sign=a2c412de37e1f1cd6ef522286e90bf85
-#EXTINF:-1 group-title="KayTee",[10:00] Xem trực tiếp Los Angeles FC vs Real Espana 10:00 ngày 25/02 CNCF CHL (Link 2)
-https://live.alilicloud.com/live/2b955ec7acaefb1008ab33b7c8e41e01/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Team South Korea vs Team Chinese Taipe 08:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
 https://cdn-hls.taoxanh.biz/live/699e49c0fe275_17480/index.m3u8?expire=1772586048&sign=6124d7a9ab909f790c493ad0c9d4d32b
