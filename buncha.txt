@@ -17,12 +17,12 @@ https://cdn-hls.taoxanh.biz/live/699e3f9726634_133136/index.m3u8?expire=17725834
 https://cdn-hls.taoxanh.biz/live/699e4111fe275_110198/index.m3u8?expire=1772583825&sign=3e3b51bd5e0c1c597e247731576535fa
 #EXTINF:-1 group-title="KayTee",[07:15] Xem trực tiếp Boca Juniors vs Gimnasia Y Esgrima De Chivilcoy 07:15 ngày 25/02 Copa Argentina
 https://live.alilicloud.com/live/04a270bd19d58964b53a837f126be4af/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Curacao U20 vs Guyana U20 07:00 ngày 25/02 CONCACAF U20 Championship
-https://live.alilicloud.com/live/5e7130f6b7493d23f5a06399c3bee6da/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA
 https://cdn-hls.taoxanh.biz/live/699e378e26634_4733/index.m3u8?expire=1772581390&sign=77b79d4a7acb84e55c7ab84e04265185
 #EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA (Link 2)
 https://cdn-hls.taoxanh.biz/live/699e3a34fe275_4439/index.m3u8?expire=1772582068&sign=c042b981e7efd38a0c326193d1bb4071
+#EXTINF:-1 group-title="KayTee",[07:00] Xem trực tiếp Curacao U20 vs Guyana U20 07:00 ngày 25/02 CONCACAF U20 Championship
+https://live.alilicloud.com/live/5e7130f6b7493d23f5a06399c3bee6da/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[06:00] Xem trực tiếp St Andrew Lions vs Ellerton FC 06:00 ngày 25/02 Barbados Premier League
 https://live.alilicloud.com/live/a8808dd83588ac69158eaf3599b4be4c/playlist.m3u8
 #EXTINF:-1 group-title="KayTee",[05:00] Xem trực tiếp Team Hà Lan vs Team Việt Nam 05:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026

@@ -618,73 +618,6 @@
           ]
         },
         {
-          "id": "kaytee-2a0a209da71b",
-          "name": "Xem trực tiếp Curacao U20 vs Guyana U20 07:00 ngày 25/02 CONCACAF U20 Championship",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "● Live",
-              "color": "#FF0000",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "bottom-left",
-              "text": "KayTee",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "center",
-              "text": "07:00",
-              "color": "#4CAF50",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "description": "07:00",
-          "image": {
-            "url": "https://tt.8share.pro/assets/buncha_logo.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "text-below",
-          "sources": [
-            {
-              "id": "src-1c8c2cefb1",
-              "name": "Bún chả TV",
-              "contents": [
-                {
-                  "id": "ct-1c8c2cefb1",
-                  "name": "Xem trực tiếp Curacao U20 vs Guyana U20 07:00 ngày 25/02 CONCACAF U20 Championship",
-                  "streams": [
-                    {
-                      "id": "st-1c8c2cefb1",
-                      "name": "KayTee",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c8c2cefb1",
-                          "name": "HLS",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.alilicloud.com/live/5e7130f6b7493d23f5a06399c3bee6da/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://bunchatv.net/truc-tiep/curacao-u20-vs-guyana-u20-0700-25-02-2026/601256840"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "id": "kaytee-802af11fb68f",
           "name": "Xem trực tiếp Indiana Pacers vs Philadelphia 76ers 07:00 ngày 25/02 NBA",
           "labels": [
@@ -807,6 +740,73 @@
                             {
                               "key": "Referer",
                               "value": "https://bunchatv.net/truc-tiep/indiana-pacers-vs-philadelphia-76ers-0700-25-02-2026/601275572"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-2a0a209da71b",
+          "name": "Xem trực tiếp Curacao U20 vs Guyana U20 07:00 ngày 25/02 CONCACAF U20 Championship",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "bottom-left",
+              "text": "KayTee",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "center",
+              "text": "07:00",
+              "color": "#4CAF50",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "description": "07:00",
+          "image": {
+            "url": "https://tt.8share.pro/assets/buncha_logo.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-1c8c2cefb1",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-1c8c2cefb1",
+                  "name": "Xem trực tiếp Curacao U20 vs Guyana U20 07:00 ngày 25/02 CONCACAF U20 Championship",
+                  "streams": [
+                    {
+                      "id": "st-1c8c2cefb1",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c8c2cefb1",
+                          "name": "HLS",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.alilicloud.com/live/5e7130f6b7493d23f5a06399c3bee6da/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://bunchatv.net/truc-tiep/curacao-u20-vs-guyana-u20-0700-25-02-2026/601256840"
                             }
                           ]
                         }
