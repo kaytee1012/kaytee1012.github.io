@@ -1,5 +1,3 @@
 #EXTM3U
 #EXTINF:-1 group-title="KayTee",[12:30] Xem trực tiếp Meisatla FC vs Lungleng FC 12:30 ngày 25/02 Indian MFA Super Cup
 https://live.alilicloud.com/live/3bf9404d33785c9479c098bcc2611a6e/playlist.m3u8
-#EXTINF:-1 group-title="KayTee",[08:00] Xem trực tiếp Team South Korea vs Team Chinese Taipe 08:00 ngày 25/02 Predator WPA Teams 10-Ball World Championship 2026
-https://cdn-hls.taoxanh.biz/live/699e49c0fe275_17480/index.m3u8?expire=1772586048&sign=6124d7a9ab909f790c493ad0c9d4d32b
