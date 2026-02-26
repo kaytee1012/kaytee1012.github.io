@@ -1,118 +1,649 @@
-import json
-import re
-from copy import deepcopy
-
-LINK_SUFFIX_RE = re.compile(r"\s*\(Link\s*(\d+)\)\s*$", re.IGNORECASE)
-
-def base_name_and_index(name: str):
-    """
-    "Match ... (Link 3)" -> ("Match ...", 3)
-    "Match ..." -> ("Match ...", 1)
-    """
-    name = (name or "").strip()
-    m = LINK_SUFFIX_RE.search(name)
-    if m:
-        idx = int(m.group(1))
-        base = LINK_SUFFIX_RE.sub("", name).strip()
-        return base, max(idx, 1)
-    return name, 1
-
-def make_child_channel(parent: dict, original_channel: dict, idx: int):
-    """
-    Tạo 1 kênh con từ channel gốc (Link idx)
-    - name: "Link {idx}"
-    - type: "single"
-    - giữ nguyên sources / image / display...
-    """
-    child = deepcopy(original_channel)
-
-    # Kênh con chỉ hiển thị là Link 1/2/3...
-    child["name"] = f"Link {idx}"
-    child["type"] = "single"
-
-    # Label/time không bắt buộc cho con, nhưng giữ lại cũng ok.
-    # Nếu muốn gọn thì có thể xóa labels/description ở con:
-    # child.pop("labels", None)
-    # child.pop("description", None)
-
-    # ID con để không trùng
-    base_id = original_channel.get("id", "ch")
-    child["id"] = f"{base_id}-link{idx}"
-
-    return child
-
-def merge_channels_into_parent_group(channels: list) -> list:
-    """
-    Gộp các channel cùng base name thành 1 channel cha type='group' có field 'channels' con.
-    """
-    if not channels:
-        return channels
-
-    # group theo base name
-    bucket = {}
-    order_keys = []  # giữ thứ tự xuất hiện
-    for ch in channels:
-        base, idx = base_name_and_index(ch.get("name", ""))
-        key = base.lower()
-        if key not in bucket:
-            bucket[key] = []
-            order_keys.append(key)
-        bucket[key].append((idx, ch, base))
-
-    out = []
-    for key in order_keys:
-        items = bucket[key]
-        items.sort(key=lambda x: x[0])  # Link 1..N
-
-        # chỉ 1 link thì giữ nguyên
-        if len(items) == 1:
-            out.append(items[0][1])
-            continue
-
-        # chọn kênh cha = bản Link 1 (nếu có), hoặc idx nhỏ nhất
-        idx0, ch0, base_name = items[0]
-        parent = deepcopy(ch0)
-
-        # sửa name cha về base (bỏ "(Link N)")
-        parent["name"] = base_name
-
-        # cha là group để bấm vào bung con
-        parent["type"] = "group"
-
-        # remove sources của cha (quan trọng):
-        # cha chỉ là folder, không nên có sources để tránh app hiểu là stream luôn
-        parent.pop("sources", None)
-
-        # đảm bảo display vẫn như cũ (mày đang dùng text-below)
-        parent.setdefault("display", "text-below")
-
-        # tạo list kênh con
-        children = []
-        for idx, ch, _base in items:
-            children.append(make_child_channel(parent, ch, idx))
-
-        parent["channels"] = children
-        out.append(parent)
-
-    return out
-
-def apply_merge_to_data(data: dict) -> dict:
-    data = deepcopy(data)
-    for g in data.get("groups", []):
-        if isinstance(g, dict) and isinstance(g.get("channels"), list):
-            g["channels"] = merge_channels_into_parent_group(g["channels"])
-    return data
-
-if __name__ == "__main__":
-    INP = "buncha.json"
-    OUT = "buncha_merged.json"
-
-    with open(INP, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    data2 = apply_merge_to_data(data)
-
-    with open(OUT, "w", encoding="utf-8") as f:
-        json.dump(data2, f, ensure_ascii=False, separators=(",", ":"))
-
-    print(f"OK: wrote {OUT}")
+{
+  "id": "buncha",
+  "url": "https://tt.8share.pro/buncha",
+  "name": "Bún Chả TV",
+  "color": "#1cb57a",
+  "image": {
+    "url": "https://kaytee1012.github.io/buncha_logo.png"
+  },
+  "description": "Bún Chả TV - Trang web phát sóng bóng đá trực tuyến miễn phí hàng đầu tại Việt Nam, mang đến trải nghiệm chất lượng cao với bình luận tiếng Việt sống động.",
+  "share": {
+    "url": "https://tt.8share.pro/buncha"
+  },
+  "notice": {
+    "closeable": true,
+    "icon": "https://media.hth4nh.eu.org/static/img/tele.png",
+    "id": "notice",
+    "link": "https://t.me/dqstore1",
+    "text": "Nhóm Telegram cập nhật"
+  },
+  "groups": [
+    {
+      "id": "live",
+      "name": "🔴 Live",
+      "display": "horizontal",
+      "grid_number": 1,
+      "channels": [
+        {
+          "id": "kaytee-7c3aacbceccd",
+          "name": "Xem trực tiếp Detroit Pistons vs Oklahoma City Thunder 07:30 ngày 26/02 NBA",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-34866d6f3a",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-34866d6f3a",
+                  "name": "Xem trực tiếp Detroit Pistons vs Oklahoma City Thunder 07:30 ngày 26/02 NBA",
+                  "streams": [
+                    {
+                      "id": "st-34866d6f3a",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-34866d6f3a",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f90f05d988_4439/index.m3u8?expire=1772669808&sign=01b359d3e9812e3eeb179c4d63de2cb5",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/detroit-pistons-vs-oklahoma-city-thunder-0730-26-02-2026/601279896"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-f565452c07a2",
+          "name": "Xem trực tiếp Memphis Grizzlies vs Golden State Warriors 07:30 ngày 26/02 NBA",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-234ec9cb52",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-234ec9cb52",
+                  "name": "Xem trực tiếp Memphis Grizzlies vs Golden State Warriors 07:30 ngày 26/02 NBA",
+                  "streams": [
+                    {
+                      "id": "st-234ec9cb52",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-234ec9cb52",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f92595d988_110198/index.m3u8?expire=1772670169&sign=5d56d64fe2c77e27facd531f1720abc4",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/memphis-grizzlies-vs-golden-state-warriors-0730-26-02-2026/601279901"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-c2e2a743100e",
+          "name": "Xem trực tiếp Toronto Raptors vs San Antonio Spurs 07:30 ngày 26/02 NBA",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-5cd9ec93cc",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-5cd9ec93cc",
+                  "name": "Xem trực tiếp Toronto Raptors vs San Antonio Spurs 07:30 ngày 26/02 NBA",
+                  "streams": [
+                    {
+                      "id": "st-5cd9ec93cc",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5cd9ec93cc",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f90645d988_133136/index.m3u8?expire=1772669668&sign=85daf53acc5203715f0fbd21e4cd779f",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/toronto-raptors-vs-san-antonio-spurs-0730-26-02-2026/601279906"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-7ac1cc1e3f4d",
+          "name": "Xem trực tiếp Palmeiras vs Fluminense RJ 07:30 ngày 26/02 Brazilian Serie A",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-f2a7eeeceb",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-f2a7eeeceb",
+                  "name": "Xem trực tiếp Palmeiras vs Fluminense RJ 07:30 ngày 26/02 Brazilian Serie A",
+                  "streams": [
+                    {
+                      "id": "st-f2a7eeeceb",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2a7eeeceb",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f931f205e8_70498/index.m3u8?expire=1772670367&sign=b921ab95909303a59474d2681dadff5a",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/palmeiras-vs-fluminense-rj-0730-26-02-2026/601253672"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-86cac0977d",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/cbe0bf4c449048be33e8c984639d7da9/playlist.m3u8",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/palmeiras-vs-fluminense-rj-0730-26-02-2026/601253672"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-4ea71131d0d6",
+          "name": "Xem trực tiếp Gremio (RS) vs Atletico Mineiro 07:30 ngày 26/02 Brazilian Serie A",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-014d8fe662",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-014d8fe662",
+                  "name": "Xem trực tiếp Gremio (RS) vs Atletico Mineiro 07:30 ngày 26/02 Brazilian Serie A",
+                  "streams": [
+                    {
+                      "id": "st-014d8fe662",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-014d8fe662",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f93715d988_74012/index.m3u8?expire=1772670449&sign=114e8d54a0fcf52e30aeab3d7040dfcd",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/gremio-rs-vs-atletico-mineiro-0730-26-02-2026/601253678"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-5d72b06aa3",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/c6f3ce8c5f2e796f8ebe17661a4ac042/playlist.m3u8",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/gremio-rs-vs-atletico-mineiro-0730-26-02-2026/601253678"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-eb6230a511fe",
+          "name": "Xem trực tiếp Argentinos Juniors vs Barcelona SC(ECU) 07:30 ngày 26/02 CONMEBOL Copa Libertadores",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-11776ea882",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-11776ea882",
+                  "name": "Xem trực tiếp Argentinos Juniors vs Barcelona SC(ECU) 07:30 ngày 26/02 CONMEBOL Copa Libertadores",
+                  "streams": [
+                    {
+                      "id": "st-11776ea882",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-11776ea882",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f8f9d5d988_5160/index.m3u8?expire=1772669469&sign=881a47c4d71fa5de19ad6452697f0e6d",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/argentinos-juniors-vs-barcelona-scecu-0730-26-02-2026/601253684"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-52d22254dd",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/9d299d851e03851a64c1ff8ae5f1cafb/playlist.m3u8",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/argentinos-juniors-vs-barcelona-scecu-0730-26-02-2026/601253684"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-0fc9d14c0d55",
+          "name": "Xem trực tiếp Botafogo RJ vs Nacional Potosi 07:30 ngày 26/02 CONMEBOL Copa Libertadores",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "07:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "07:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-e34d794925",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-e34d794925",
+                  "name": "Xem trực tiếp Botafogo RJ vs Nacional Potosi 07:30 ngày 26/02 CONMEBOL Copa Libertadores",
+                  "streams": [
+                    {
+                      "id": "st-e34d794925",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e34d794925",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f8e895d988_68958/index.m3u8?expire=1772669193&sign=4f6946aeba2aed8fe18ad76b9fbfd40a",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/botafogo-rj-vs-nacional-potosi-0730-26-02-2026/601253690"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-ab43e6de20",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/1431abf69641619ecb1f6f026b977085/playlist.m3u8",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/botafogo-rj-vs-nacional-potosi-0730-26-02-2026/601253690"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-26f64d989eb3",
+          "name": "Xem trực tiếp Houston Rockets vs Sacramento Kings 08:00 ngày 26/02 NBA",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "08:00", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "08:00",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-86ab058b74",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-86ab058b74",
+                  "name": "Xem trực tiếp Houston Rockets vs Sacramento Kings 08:00 ngày 26/02 NBA",
+                  "streams": [
+                    {
+                      "id": "st-86ab058b74",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86ab058b74",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f966c5d988_72787/index.m3u8?expire=1772671212&sign=9f17403dcc2cc86b661b1dc58c3bd731",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/houston-rockets-vs-sacramento-kings-0800-26-02-2026/601279911"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-0e2acac755e5",
+          "name": "Xem trực tiếp Milwaukee Bucks vs Cleveland Cavaliers 08:00 ngày 26/02 NBA",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "08:00", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "08:00",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-67d32d8b2c",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-67d32d8b2c",
+                  "name": "Xem trực tiếp Milwaukee Bucks vs Cleveland Cavaliers 08:00 ngày 26/02 NBA",
+                  "streams": [
+                    {
+                      "id": "st-67d32d8b2c",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67d32d8b2c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f95b45d988_4733/index.m3u8?expire=1772671028&sign=7462c1f3a82c8ebedf4fb7287d7a13d8",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/milwaukee-bucks-vs-cleveland-cavaliers-0800-26-02-2026/601279916"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-f1ed22c15c57",
+          "name": "Xem trực tiếp Team Austria vs Team USA - B 08:30 ngày 26/02 Predator WPA Teams 10-Ball World Championship 2026",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "08:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "08:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-efe343a92b",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-efe343a92b",
+                  "name": "Xem trực tiếp Team Austria vs Team USA - B 08:30 ngày 26/02 Predator WPA Teams 10-Ball World Championship 2026",
+                  "streams": [
+                    {
+                      "id": "st-efe343a92b",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-efe343a92b",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f32415d988_17480/index.m3u8?expire=1772645569&sign=45f1264ad1719f69849991279488c274",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/team-austria-vs-team-usa--b-0830-26-02-2026/601277921"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-88668330fa5b",
+          "name": "Xem trực tiếp Team Việt Nam vs TEAM Great Britain 08:30 ngày 26/02 Predator WPA Teams 10-Ball World Championship 2026",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "08:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "08:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-986051e45c",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-986051e45c",
+                  "name": "Xem trực tiếp Team Việt Nam vs TEAM Great Britain 08:30 ngày 26/02 Predator WPA Teams 10-Ball World Championship 2026",
+                  "streams": [
+                    {
+                      "id": "st-986051e45c",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-986051e45c",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f27505d988_103/index.m3u8?expire=1772642768&sign=76cef1fdaf6186532127f2e9c9f02c3b",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/team-viet-nam-vs-team-great-britain-0830-26-02-2026/601277931"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-5ed037ac17d0",
+          "name": "Xem trực tiếp Mexico vs Iceland 09:00 ngày 26/02 International Friendly",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "09:00", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "09:00",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-9fd62dcbd7",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-9fd62dcbd7",
+                  "name": "Xem trực tiếp Mexico vs Iceland 09:00 ngày 26/02 International Friendly",
+                  "streams": [
+                    {
+                      "id": "st-9fd62dcbd7",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fd62dcbd7",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699fa7975d988_88642/index.m3u8?expire=1772675607&sign=6c026f92d08921431d4ce6a1ac22b14d",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/mexico-vs-iceland-0900-26-02-2026/601273154"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        },
+                        {
+                          "id": "lnk-4e62eee177",
+                          "name": "Link 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.alilicloud.com/live/093df4f16ded929b2cc70d2be28519f9/playlist.m3u8",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/mexico-vs-iceland-0900-26-02-2026/601273154"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kaytee-13397cfea837",
+          "name": "Xem trực tiếp Vancouver Whitecaps vs Cartagines Deportiva SA 09:30 ngày 26/02 CNCF CHL",
+          "labels": [
+            {"position": "top-left", "text": "● Live", "color": "#FF0000", "text_color": "#FFFFFF"},
+            {"position": "center", "text": "09:30", "color": "#4CAF50", "text_color": "#FFFFFF"}
+          ],
+          "description": "09:30",
+          "image": {"url": "https://kaytee1012.github.io/buncha_logo.png", "height": 480, "width": 640, "display": "cover", "shape": "square"},
+          "type": "single",
+          "display": "text-below",
+          "sources": [
+            {
+              "id": "src-ca1ca0d8be",
+              "name": "Bún chả TV",
+              "contents": [
+                {
+                  "id": "ct-ca1ca0d8be",
+                  "name": "Xem trực tiếp Vancouver Whitecaps vs Cartagines Deportiva SA 09:30 ngày 26/02 CNCF CHL",
+                  "streams": [
+                    {
+                      "id": "st-ca1ca0d8be",
+                      "name": "KayTee",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ca1ca0d8be",
+                          "name": "Link 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn-hls.taoxanh.biz/live/699f11ee205e8_58/index.m3u8?expire=1772637294&sign=7ae45635366c3447b395ebbbaac9ef69",
+                          "request_headers": [
+                            {"key": "Referer", "value": "https://bunchatv.net/truc-tiep/vancouver-whitecaps-vs-cartagines-deportiva-sa-0930-26-02-2026/601253720"},
+                            {"key": "User-Agent", "value": "Mozilla/5.0"}
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "option": {
+    "save_history": false,
+    "save_search_history": false,
+    "save_wishlist": false
+  }
+}
