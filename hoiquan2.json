@@ -19,12 +19,6 @@
           "subtitle": "",
           "labels": [
             {
-              "position": "bottom-left",
-              "text": "BLV PHAN MÃ Follow FB Trận đấu sẽ bắt đầu sa",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
@@ -51,7 +45,7 @@
                   "streams": [
                     {
                       "id": "hoiquan-stream-5092-fallback",
-                      "name": "BLV PHAN MÃ Follow FB Trận đấu sẽ bắt đầu sa",
+                      "name": "Mở trang trận",
                       "remote_data": {
                         "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/afc-champions-league-1760930153787/gangwon-fc-vs-machida-zelvia.EHhp196HXB/5092"
                       }
@@ -99,10 +93,10 @@
                   "name": "AFC Champions League Bóng đá Melbourne City Sắp bắt đầu - null' 0 - 0 14:45 03/03/2026 Buriram United BLV CỦ HÀNH Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5087-fallback",
-                      "name": "BLV CỦ HÀNH Follow FB CƯỢC SV368 CƯỢC VSBET",
+                      "id": "hoiquan-stream-5087-1",
+                      "name": "BLV CỦ HÀNH Follow FB CƯỢC SV368 CƯỢC VSBET #1",
                       "remote_data": {
-                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/afc-champions-league-1760930153787/melbourne-city-vs-buriram-united.MxfTjavps7/5087"
+                        "url": "https://dipl0825.edgemaxcdn.org/live/hqtv_blv_phando/playlist.m3u8"
                       }
                     }
                   ]
@@ -116,12 +110,6 @@
           "name": "All England Mở rộng Cầu lông Tay Vợt Số 1 Sắp diễn ra vs 17:00 03/03/2026 Tay Vợt Số 2 BLV THIÊN LÔI và 3 blv khác Đặt cược",
           "subtitle": "",
           "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV THIÊN LÔI BLV SÁT THỦ BLV PHAN SÓC BLV N",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
             {
               "position": "top-left",
               "text": "● Live",
@@ -149,7 +137,7 @@
                   "streams": [
                     {
                       "id": "hoiquan-stream-5133-fallback",
-                      "name": "BLV THIÊN LÔI BLV SÁT THỦ BLV PHAN SÓC BLV N",
+                      "name": "Mở trang trận",
                       "remote_data": {
                         "url": "https://sv2.hoiquan2.live/truc-tiep/cau-long/all-england-mo-rong.sB2gd2CmZx/all-england-mo-rong.Lp5f9NtWl0/5133"
                       }
@@ -162,7 +150,7 @@
         },
         {
           "id": "hoiquan-5088",
-          "name": "Asian Cup Women Bóng đá China W Sắp diễn ra vs 15:00 03/03/2026 Bangladesh W BLV PHAN HEO Đặt cược",
+          "name": "Asian Cup Women Bóng đá China W Sắp bắt đầu - null' 0 - 0 15:00 03/03/2026 Bangladesh W BLV PHAN HEO Đặt cược",
           "subtitle": "",
           "labels": [
             {
@@ -188,7 +176,7 @@
               "contents": [
                 {
                   "id": "hoiquan-content-5088",
-                  "name": "Asian Cup Women Bóng đá China W Sắp diễn ra vs 15:00 03/03/2026 Bangladesh W BLV PHAN HEO Đặt cược",
+                  "name": "Asian Cup Women Bóng đá China W Sắp bắt đầu - null' 0 - 0 15:00 03/03/2026 Bangladesh W BLV PHAN HEO Đặt cược",
                   "streams": [
                     {
                       "id": "hoiquan-stream-5088-fallback",
@@ -400,6 +388,55 @@
           ]
         },
         {
+          "id": "hoiquan-5116",
+          "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN HEO Follow FB Trận đấu sẽ bắt đầu s",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://i.imgur.com/Ne0x6Ea.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5116",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5116",
+                  "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5116-fallback",
+                      "name": "BLV PHAN HEO Follow FB Trận đấu sẽ bắt đầu s",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/italian-serie-a1-1760831580442/chieri-76-vs-novara.8zlPSjW3hT/5116"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "id": "hoiquan-5113",
           "name": "Korean V-League Bóng chuyền Expressway Co Nữ Sắp diễn ra vs 17:00 04/03/2026 Al Pepper BLV PHAN LONG Đặt cược",
           "subtitle": "",
@@ -503,12 +540,6 @@
           "subtitle": "",
           "labels": [
             {
-              "position": "bottom-left",
-              "text": "BLV PHAN CA Follow FB Trận đấu sẽ bắt đầu sa",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
@@ -535,7 +566,7 @@
                   "streams": [
                     {
                       "id": "hoiquan-stream-5075-fallback",
-                      "name": "BLV PHAN CA Follow FB Trận đấu sẽ bắt đầu sa",
+                      "name": "Mở trang trận",
                       "remote_data": {
                         "url": "https://sv2.hoiquan2.live/truc-tiep/esports/lpl.qUsY6-UqEc/ig-al.QMvRkwYM1M/5075"
                       }
@@ -650,6 +681,12 @@
           "subtitle": "",
           "labels": [
             {
+              "position": "bottom-left",
+              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ Chicago B",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
               "position": "top-left",
               "text": "● Live",
               "color": "#FF0000",
@@ -676,7 +713,7 @@
                   "streams": [
                     {
                       "id": "hoiquan-stream-5037-fallback",
-                      "name": "Mở trang trận",
+                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ Chicago B",
                       "remote_data": {
                         "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/nba-preseason-1759393726519/cleveland-cavaliers-vs-detroit-pistons.dqqJ6dblXi/5037"
                       }
@@ -692,6 +729,12 @@
           "name": "NBA Bóng rổ Philadelphia 76ers Sắp diễn ra vs 08:00 04/03/2026 San Antonio Spurs BLV PHAN CÁO Đặt cược",
           "subtitle": "",
           "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN CÁO Follow FB Trận đấu sẽ bắt đầu s",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
             {
               "position": "top-left",
               "text": "● Live",
@@ -719,7 +762,7 @@
                   "streams": [
                     {
                       "id": "hoiquan-stream-5040-fallback",
-                      "name": "Mở trang trận",
+                      "name": "BLV PHAN CÁO Follow FB Trận đấu sẽ bắt đầu s",
                       "remote_data": {
                         "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/nba-preseason-1759393726519/philadelphia-76ers-vs-san-antonio-spurs.ZLjrONbP4Y/5040"
                       }
@@ -820,49 +863,6 @@
                       "name": "BLV PHAN KIẾN Follow FB Trận đấu sẽ bắt đầu",
                       "remote_data": {
                         "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/turkish-league-1760099758342/fenerbahce-vs-aras-kargo.fWoZ5MmnNQ/5112"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5116",
-          "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://i.imgur.com/Ne0x6Ea.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5116",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5116",
-                  "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5116-fallback",
-                      "name": "Mở trang trận",
-                      "remote_data": {
-                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/italian-serie-a1-1760831580442/chieri-76-vs-novara.8zlPSjW3hT/5116"
                       }
                     }
                   ]
