@@ -20,7 +20,7 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+              "text": "BLV PHAN MÃ Follow FB Trận đấu sẽ bắt đầu sa",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
@@ -50,10 +50,10 @@
                   "name": "AFC Champions League Bóng đá Gangwon FC Sắp diễn ra vs 17:00 03/03/2026 Machida Zelvia BLV PHAN MÃ Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5092",
-                      "name": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+                      "id": "hoiquan-stream-5092-fallback",
+                      "name": "BLV PHAN MÃ Follow FB Trận đấu sẽ bắt đầu sa",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5092"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/afc-champions-league-1760930153787/gangwon-fc-vs-machida-zelvia.EHhp196HXB/5092"
                       }
                     }
                   ]
@@ -69,7 +69,7 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+              "text": "BLV CỦ HÀNH Follow FB CƯỢC SV368 CƯỢC VSBET",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
@@ -99,10 +99,59 @@
                   "name": "AFC Champions League Bóng đá Melbourne City Sắp bắt đầu - null' 0 - 0 14:45 03/03/2026 Buriram United BLV CỦ HÀNH Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5087",
-                      "name": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+                      "id": "hoiquan-stream-5087-fallback",
+                      "name": "BLV CỦ HÀNH Follow FB CƯỢC SV368 CƯỢC VSBET",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5087"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/afc-champions-league-1760930153787/melbourne-city-vs-buriram-united.MxfTjavps7/5087"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5133",
+          "name": "All England Mở rộng Cầu lông Tay Vợt Số 1 Sắp diễn ra vs 17:00 03/03/2026 Tay Vợt Số 2 BLV THIÊN LÔI và 3 blv khác Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV THIÊN LÔI BLV SÁT THỦ BLV PHAN SÓC BLV N",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://res.cloudinary.com/dlwx7hywr/image/upload/v1752114457/badminton_kizczv.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5133",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5133",
+                  "name": "All England Mở rộng Cầu lông Tay Vợt Số 1 Sắp diễn ra vs 17:00 03/03/2026 Tay Vợt Số 2 BLV THIÊN LÔI và 3 blv khác Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5133-fallback",
+                      "name": "BLV THIÊN LÔI BLV SÁT THỦ BLV PHAN SÓC BLV N",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/cau-long/all-england-mo-rong.sB2gd2CmZx/all-england-mo-rong.Lp5f9NtWl0/5133"
                       }
                     }
                   ]
@@ -116,12 +165,6 @@
           "name": "Asian Cup Women Bóng đá China W Sắp diễn ra vs 15:00 03/03/2026 Bangladesh W BLV PHAN HEO Đặt cược",
           "subtitle": "",
           "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược LCK Challeger",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
             {
               "position": "top-left",
               "text": "● Live",
@@ -148,10 +191,255 @@
                   "name": "Asian Cup Women Bóng đá China W Sắp diễn ra vs 15:00 03/03/2026 Bangladesh W BLV PHAN HEO Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5088",
-                      "name": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+                      "id": "hoiquan-stream-5088-fallback",
+                      "name": "Mở trang trận",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5088"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/asian-cup-women.q-APlFVYC9/china-w-vs-bangladesh-w.QZykyZhIah/5088"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5117",
+          "name": "Champions League Bóng chuyền Projekt Warszawa Sắp diễn ra vs 02:30 05/03/2026 Trentino BLV PHAN LONG Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN LONG Follow FB Trận đấu sẽ bắt đầu",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://i.imgur.com/Ne0x6Ea.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5117",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5117",
+                  "name": "Champions League Bóng chuyền Projekt Warszawa Sắp diễn ra vs 02:30 05/03/2026 Trentino BLV PHAN LONG Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5117-fallback",
+                      "name": "BLV PHAN LONG Follow FB Trận đấu sẽ bắt đầu",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/champions-league.blRE3hG0zH/projekt-warzawa-vs-trentino.4g0NtogE40/5117"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5093",
+          "name": "Cup Bóng đá Syunik Sắp diễn ra vs 18:00 03/03/2026 Andranik BLV PHAN SÓC Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN SÓC Follow FB Trận đấu sẽ bắt đầu s",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://i.imgur.com/30aaqin.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5093",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5093",
+                  "name": "Cup Bóng đá Syunik Sắp diễn ra vs 18:00 03/03/2026 Andranik BLV PHAN SÓC Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5093-fallback",
+                      "name": "BLV PHAN SÓC Follow FB Trận đấu sẽ bắt đầu s",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/cup.e_AtarR4MH/syunik-vs-andranik.1PFmM1mFqj/5093"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5036",
+          "name": "EUROLEAGUE Bóng rổ Hapoel Tel-Aviv Sắp diễn ra vs 00:00 04/03/2026 Paris PHAN MÃO Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ Chicago B",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://res.cloudinary.com/dlwx7hywr/image/upload/v1752114456/basketball_fwixsa.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5036",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5036",
+                  "name": "EUROLEAGUE Bóng rổ Hapoel Tel-Aviv Sắp diễn ra vs 00:00 04/03/2026 Paris PHAN MÃO Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5036-fallback",
+                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ Chicago B",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/euroleague-1759216694871/hapoel-tel-aviv-vs-paris.vUFPnOzoc8/5036"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5094",
+          "name": "First League Bóng đá Spartak Varna Sắp diễn ra vs 18:30 03/03/2026 Montana PHAN MÃO Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV CỦ HÀNH Đặt cược Asian Cup Women Bóng đá",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://i.imgur.com/30aaqin.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5094",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5094",
+                  "name": "First League Bóng đá Spartak Varna Sắp diễn ra vs 18:30 03/03/2026 Montana PHAN MÃO Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5094-fallback",
+                      "name": "BLV CỦ HÀNH Đặt cược Asian Cup Women Bóng đá",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-da/first-league-1763539896569/spartak-varna-vs-montana.ZT30bYN63a/5094"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5113",
+          "name": "Korean V-League Bóng chuyền Expressway Co Nữ Sắp diễn ra vs 17:00 04/03/2026 Al Pepper BLV PHAN LONG Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "bottom-left",
+              "text": "BLV PHAN LONG Follow FB Trận đấu sẽ bắt đầu",
+              "color": "#0066CC",
+              "text_color": "#FFFFFF"
+            },
+            {
+              "position": "top-left",
+              "text": "● Live",
+              "color": "#FF0000",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://i.imgur.com/Ne0x6Ea.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5113",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5113",
+                  "name": "Korean V-League Bóng chuyền Expressway Co Nữ Sắp diễn ra vs 17:00 04/03/2026 Al Pepper BLV PHAN LONG Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5113-fallback",
+                      "name": "BLV PHAN LONG Follow FB Trận đấu sẽ bắt đầu",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/korean-v-league-1760378698232/expressway-vs-al-pepper.F9o8YokPek/5113"
                       }
                     }
                   ]
@@ -167,7 +455,7 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+              "text": "BLV PHAN GẦY Follow FB Trận đấu sẽ bắt đầu s",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
@@ -197,10 +485,10 @@
                   "name": "LCK Challegers Esports TBD Sắp diễn ra vs 15:00 03/03/2026 T1 A BLV PHAN GẦY Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5074",
-                      "name": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+                      "id": "hoiquan-stream-5074-fallback",
+                      "name": "BLV PHAN GẦY Follow FB Trận đấu sẽ bắt đầu s",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5074"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/esports/lck-challegers.GtM2jETDfV/tbd-t1-a.1_KNarASix/5074"
                       }
                     }
                   ]
@@ -216,7 +504,7 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+              "text": "BLV PHAN CA Follow FB Trận đấu sẽ bắt đầu sa",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
@@ -246,353 +534,10 @@
                   "name": "LPL Esports IG Sắp diễn ra vs 16:00 03/03/2026 AL BLV PHAN CA Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5075",
-                      "name": "BLV CỦ HÀNH Đặt cược LCK Challeger",
+                      "id": "hoiquan-stream-5075-fallback",
+                      "name": "BLV PHAN CA Follow FB Trận đấu sẽ bắt đầu sa",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5075"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5133",
-          "name": "All England Mở rộng Cầu lông Tay Vợt Số 1 Sắp diễn ra vs 17:00 03/03/2026 Tay Vợt Số 2 BLV THIÊN LÔI và 3 blv khác Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV THIÊN LÔI và 3 blv khác Đặt cư",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://static.flashscore.com/res/image/data/O2nuZwRp-vaAM5VhK.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5133",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5133",
-                  "name": "All England Mở rộng Cầu lông Tay Vợt Số 1 Sắp diễn ra vs 17:00 03/03/2026 Tay Vợt Số 2 BLV THIÊN LÔI và 3 blv khác Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5133",
-                      "name": "BLV THIÊN LÔI và 3 blv khác Đặt cư",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5133"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5117",
-          "name": "Champions League Bóng chuyền Projekt Warszawa Sắp diễn ra vs 02:30 05/03/2026 Trentino BLV PHAN LONG Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV PHAN KIẾN Đặt cược Korean V-Le",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/S%C3%BCper_Lig_logo.svg/1200px-S%C3%BCper_Lig_logo.svg.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5117",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5117",
-                  "name": "Champions League Bóng chuyền Projekt Warszawa Sắp diễn ra vs 02:30 05/03/2026 Trentino BLV PHAN LONG Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5117",
-                      "name": "BLV PHAN KIẾN Đặt cược Korean V-Le",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5117"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5093",
-          "name": "Cup Bóng đá Syunik Sắp diễn ra vs 18:00 03/03/2026 Andranik BLV PHAN SÓC Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược Asian Cup Wom",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5093",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5093",
-                  "name": "Cup Bóng đá Syunik Sắp diễn ra vs 18:00 03/03/2026 Andranik BLV PHAN SÓC Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5093",
-                      "name": "BLV CỦ HÀNH Đặt cược Asian Cup Wom",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5093"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5036",
-          "name": "EUROLEAGUE Bóng rổ Hapoel Tel-Aviv Sắp diễn ra vs 00:00 04/03/2026 Paris PHAN MÃO Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/fr/3/37/Logo_Euroleague_Basketball_%28Vertical%29.svg",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5036",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5036",
-                  "name": "EUROLEAGUE Bóng rổ Hapoel Tel-Aviv Sắp diễn ra vs 00:00 04/03/2026 Paris PHAN MÃO Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5036",
-                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5036"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5094",
-          "name": "First League Bóng đá Spartak Varna Sắp diễn ra vs 18:30 03/03/2026 Montana PHAN MÃO Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV CỦ HÀNH Đặt cược Asian Cup Wom",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/vi/thumb/d/d7/AFC_Champions_League_Elite_logo.svg/1231px-AFC_Champions_League_Elite_logo.svg.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5094",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5094",
-                  "name": "First League Bóng đá Spartak Varna Sắp diễn ra vs 18:30 03/03/2026 Montana PHAN MÃO Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5094",
-                      "name": "BLV CỦ HÀNH Đặt cược Asian Cup Wom",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5094"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5116",
-          "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV PHAN KIẾN Đặt cược Korean V-Le",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/S%C3%BCper_Lig_logo.svg/1200px-S%C3%BCper_Lig_logo.svg.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5116",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5116",
-                  "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5116",
-                      "name": "BLV PHAN KIẾN Đặt cược Korean V-Le",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5116"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "hoiquan-5113",
-          "name": "Korean V-League Bóng chuyền Expressway Co Nữ Sắp diễn ra vs 17:00 04/03/2026 Al Pepper BLV PHAN LONG Đặt cược",
-          "subtitle": "",
-          "labels": [
-            {
-              "position": "bottom-left",
-              "text": "BLV PHAN KIẾN Đặt cược Korean V-Le",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
-              "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
-              "text_color": "#FFFFFF"
-            }
-          ],
-          "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/S%C3%BCper_Lig_logo.svg/1200px-S%C3%BCper_Lig_logo.svg.png",
-            "height": 480,
-            "width": 640,
-            "display": "cover",
-            "shape": "square"
-          },
-          "type": "single",
-          "display": "thumbnail-only",
-          "sources": [
-            {
-              "id": "hoiquan-source-5113",
-              "name": "Hội Quán TV",
-              "contents": [
-                {
-                  "id": "hoiquan-content-5113",
-                  "name": "Korean V-League Bóng chuyền Expressway Co Nữ Sắp diễn ra vs 17:00 04/03/2026 Al Pepper BLV PHAN LONG Đặt cược",
-                  "streams": [
-                    {
-                      "id": "hoiquan-stream-5113",
-                      "name": "BLV PHAN KIẾN Đặt cược Korean V-Le",
-                      "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5113"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/esports/lpl.qUsY6-UqEc/ig-al.QMvRkwYM1M/5075"
                       }
                     }
                   ]
@@ -608,19 +553,19 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
+              "text": "BLV PHAN PHÉP Follow FB Trận đấu sẽ bắt đầu",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
+              "text": "● Live",
+              "color": "#FF0000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/fr/3/37/Logo_Euroleague_Basketball_%28Vertical%29.svg",
+            "url": "https://res.cloudinary.com/dlwx7hywr/image/upload/v1752114456/basketball_fwixsa.png",
             "height": 480,
             "width": 640,
             "display": "cover",
@@ -638,10 +583,10 @@
                   "name": "NBA Bóng rổ Charlotte Hornets Sắp diễn ra vs 07:00 04/03/2026 Dallas Mavericks BLV PHAN PHÉP Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5038",
-                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
+                      "id": "hoiquan-stream-5038-fallback",
+                      "name": "BLV PHAN PHÉP Follow FB Trận đấu sẽ bắt đầu",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5038"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/nba-preseason-1759393726519/charlotte-hornets-vs-dallas-mavericks.Y8AjT2mJYU/5038"
                       }
                     }
                   ]
@@ -657,19 +602,19 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
+              "text": "BLV PHAN GẦY Follow FB Trận đấu sẽ bắt đầu s",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
+              "text": "● Live",
+              "color": "#FF0000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/fr/3/37/Logo_Euroleague_Basketball_%28Vertical%29.svg",
+            "url": "https://res.cloudinary.com/dlwx7hywr/image/upload/v1752114456/basketball_fwixsa.png",
             "height": 480,
             "width": 640,
             "display": "cover",
@@ -687,10 +632,10 @@
                   "name": "NBA Bóng rổ Chicago Bulls Sắp diễn ra vs 08:00 04/03/2026 Oklahoma City Thunder BLV PHAN GẦY Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5039",
-                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
+                      "id": "hoiquan-stream-5039-fallback",
+                      "name": "BLV PHAN GẦY Follow FB Trận đấu sẽ bắt đầu s",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5039"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/nba-preseason-1759393726519/chicago-bulls-vs-oklahoma-city-thunder.GN-cB-uZgG/5039"
                       }
                     }
                   ]
@@ -705,20 +650,14 @@
           "subtitle": "",
           "labels": [
             {
-              "position": "bottom-left",
-              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
+              "text": "● Live",
+              "color": "#FF0000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/fr/3/37/Logo_Euroleague_Basketball_%28Vertical%29.svg",
+            "url": "https://res.cloudinary.com/dlwx7hywr/image/upload/v1752114456/basketball_fwixsa.png",
             "height": 480,
             "width": 640,
             "display": "cover",
@@ -736,10 +675,10 @@
                   "name": "NBA Bóng rổ Cleveland Cavaliers Sắp diễn ra vs 07:00 04/03/2026 Detroit Pistons PHAN MÃO Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5037",
-                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
+                      "id": "hoiquan-stream-5037-fallback",
+                      "name": "Mở trang trận",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5037"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/nba-preseason-1759393726519/cleveland-cavaliers-vs-detroit-pistons.dqqJ6dblXi/5037"
                       }
                     }
                   ]
@@ -754,20 +693,14 @@
           "subtitle": "",
           "labels": [
             {
-              "position": "bottom-left",
-              "text": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
-              "color": "#0066CC",
-              "text_color": "#FFFFFF"
-            },
-            {
               "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
+              "text": "● Live",
+              "color": "#FF0000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/fr/3/37/Logo_Euroleague_Basketball_%28Vertical%29.svg",
+            "url": "https://res.cloudinary.com/dlwx7hywr/image/upload/v1752114456/basketball_fwixsa.png",
             "height": 480,
             "width": 640,
             "display": "cover",
@@ -785,10 +718,10 @@
                   "name": "NBA Bóng rổ Philadelphia 76ers Sắp diễn ra vs 08:00 04/03/2026 San Antonio Spurs BLV PHAN CÁO Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5040",
-                      "name": "BLV PHAN PHÉP Đặt cược NBA Bóng rổ",
+                      "id": "hoiquan-stream-5040-fallback",
+                      "name": "Mở trang trận",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5040"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-ro/nba-preseason-1759393726519/philadelphia-76ers-vs-san-antonio-spurs.ZLjrONbP4Y/5040"
                       }
                     }
                   ]
@@ -804,19 +737,19 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV PHAN KIẾN Đặt cược Korean V-Le",
+              "text": "BLV PHAN CA Follow FB Trận đấu sẽ bắt đầu sa",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
+              "text": "● Live",
+              "color": "#FF0000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/S%C3%BCper_Lig_logo.svg/1200px-S%C3%BCper_Lig_logo.svg.png",
+            "url": "https://i.imgur.com/Ne0x6Ea.png",
             "height": 480,
             "width": 640,
             "display": "cover",
@@ -834,10 +767,10 @@
                   "name": "Turkey Super Cup Women Bóng chuyền Vakifbank Nữ Sắp diễn ra vs 21:00 04/03/2026 Zeren Spor Nữ BLV PHAN CA Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5114",
-                      "name": "BLV PHAN KIẾN Đặt cược Korean V-Le",
+                      "id": "hoiquan-stream-5114-fallback",
+                      "name": "BLV PHAN CA Follow FB Trận đấu sẽ bắt đầu sa",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5114"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/turkey-super-cup-women-1759830831093/vakifbank-vs-zeren-spor.0qFJVirJZf/5114"
                       }
                     }
                   ]
@@ -853,19 +786,19 @@
           "labels": [
             {
               "position": "bottom-left",
-              "text": "BLV PHAN KIẾN Đặt cược Korean V-Le",
+              "text": "BLV PHAN KIẾN Follow FB Trận đấu sẽ bắt đầu",
               "color": "#0066CC",
               "text_color": "#FFFFFF"
             },
             {
               "position": "top-left",
-              "text": "Sắp đấu",
-              "color": "#F59E0B",
+              "text": "● Live",
+              "color": "#FF0000",
               "text_color": "#FFFFFF"
             }
           ],
           "image": {
-            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/S%C3%BCper_Lig_logo.svg/1200px-S%C3%BCper_Lig_logo.svg.png",
+            "url": "https://i.imgur.com/Ne0x6Ea.png",
             "height": 480,
             "width": 640,
             "display": "cover",
@@ -883,10 +816,53 @@
                   "name": "Turkish League Bóng chuyền Fenerbahçe Sắp diễn ra vs 00:00 04/03/2026 Aras Kargo BLV PHAN KIẾN Đặt cược",
                   "streams": [
                     {
-                      "id": "hoiquan-stream-5112",
-                      "name": "BLV PHAN KIẾN Đặt cược Korean V-Le",
+                      "id": "hoiquan-stream-5112-fallback",
+                      "name": "BLV PHAN KIẾN Follow FB Trận đấu sẽ bắt đầu",
                       "remote_data": {
-                        "url": "http://tt.8share.pro/hoiquan/stream/5112"
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/turkish-league-1760099758342/fenerbahce-vs-aras-kargo.fWoZ5MmnNQ/5112"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "hoiquan-5116",
+          "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
+          "subtitle": "",
+          "labels": [
+            {
+              "position": "top-left",
+              "text": "Sắp đấu",
+              "color": "#F59E0B",
+              "text_color": "#FFFFFF"
+            }
+          ],
+          "image": {
+            "url": "https://i.imgur.com/Ne0x6Ea.png",
+            "height": 480,
+            "width": 640,
+            "display": "cover",
+            "shape": "square"
+          },
+          "type": "single",
+          "display": "thumbnail-only",
+          "sources": [
+            {
+              "id": "hoiquan-source-5116",
+              "name": "Hội Quán TV",
+              "contents": [
+                {
+                  "id": "hoiquan-content-5116",
+                  "name": "Italian Serie A1 Bóng chuyền Chieri '76 Nữ Sắp diễn ra vs 02:00 05/03/2026 Novara Nữ BLV PHAN HEO Đặt cược",
+                  "streams": [
+                    {
+                      "id": "hoiquan-stream-5116-fallback",
+                      "name": "Mở trang trận",
+                      "remote_data": {
+                        "url": "https://sv2.hoiquan2.live/truc-tiep/bong-chuyen/italian-serie-a1-1760831580442/chieri-76-vs-novara.8zlPSjW3hT/5116"
                       }
                     }
                   ]
@@ -945,126 +921,6 @@
           },
           "remote_data": {
             "url": "monplayer://monplayer.org?link=https%3A%2F%2Fcktv.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "ophim",
-          "name": "Ophim",
-          "display": "text-below",
-          "image": {
-            "url": "https://op.hdpe.pro/images/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fop.hdpe.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "kkphim",
-          "name": "Kkphim",
-          "display": "text-below",
-          "image": {
-            "url": "https://kk.hdpe.pro/images/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fkk.hdpe.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "nguonc",
-          "name": "NguonC",
-          "display": "text-below",
-          "image": {
-            "url": "https://nc.hdpe.pro/images/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnc.hdpe.pro&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "truyenhinh",
-          "name": "FPT",
-          "display": "text-below",
-          "image": {
-            "url": "https://iptv.nhadai.org/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fiptv.nhadai.org%2Fv1&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "vtvgo",
-          "name": "VTVGO",
-          "display": "text-below",
-          "image": {
-            "url": "https://web-cache-aws.vtvdigital.vn/assets/images/logo-app.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fvtvgo.4share.me%2Fv1&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "hangtruyen",
-          "name": "Hang Truyện",
-          "display": "text-below",
-          "image": {
-            "url": "https://ht.khotruyen.link/images/hangtruyen.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fht.khotruyen.link&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "otruyen",
-          "name": "Ổ Truyện",
-          "display": "text-below",
-          "image": {
-            "url": "https://otruyen-iptv.khotruyen.link/logo.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fotruyen-iptv.khotruyen.link&type=provider",
-            "external": true
-          }
-        },
-        {
-          "id": "newtruyenhot",
-          "name": "NewTruyenHot",
-          "display": "text-below",
-          "image": {
-            "url": "https://newtruyenhot.4share.me/static/img/logo-newtruyenhot.png",
-            "height": 100,
-            "width": 100,
-            "display": "cover"
-          },
-          "remote_data": {
-            "url": "monplayer://monplayer.org?link=https%3A%2F%2Fnewtruyenhot.4share.me&type=provider",
             "external": true
           }
         }
